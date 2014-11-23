@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+@import "css/mixins";
+@import "css/sprites";
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: $bgColor;
+  @include sansSerifFont;
+  line-height: 1.4;
+}
+
+// Base Styles
+a {
+  color: $linkColor;
+}
+
+a:hover {
+  color: darken($linkColor, 15%);
+}
+
+ul {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+@import "css/nav";
+@import "css/content";
+@import "css/responsive";

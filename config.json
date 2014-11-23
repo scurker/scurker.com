@@ -1,0 +1,36 @@
+{
+  "locals": {
+    "name": "scurker - jason wilson",
+    "dateFormat": "D MMM YYYY"
+  },
+  "plugins": [
+    "./plugins/paginator.coffee",
+    "./plugins/page.coffee",
+    "./plugins/wintersmith-handlebars.coffee"
+  ],
+  "require": {
+    "moment": "moment",
+    "_": "underscore",
+    "typogr": "typogr"
+  },
+  "jade": {
+    "pretty": true
+  },
+  "markdown": {
+    "smartLists": true,
+    "smartypants": true
+  },
+  "paginator": {
+    "template": "index.hbs",
+    "first": "index.html",
+    "perPage": 10000
+  },
+  "blog": {
+    "postsDir": "articles",
+    "template": "article.hbs",
+    "filenameTemplate": "/:file/index.html"
+  },
+  "handlebars": {
+    "helpersDir": "helpers"
+  }
+}

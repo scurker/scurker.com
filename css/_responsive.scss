@@ -1,0 +1,52 @@
+@media (min-width: $baseWidth + $baseMargin) {
+
+  .content {
+    margin-left: $baseWidth - $rightColWidth;
+    width: $rightColWidth;
+  }
+
+  nav {
+    position: fixed;
+    width: ($baseWidth - $rightColWidth) - 4em;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav .social {
+    width: 100%;
+    display: block;
+    margin: 1em 0;
+  }
+
+  nav a.name {
+    overflow: hidden;
+    display: block;
+    margin-top: 1em;
+  }
+
+  nav ul {
+    text-align: left;
+    clear: both;
+  }
+
+  nav ul li,
+  nav li a {
+    display: block;
+  }
+
+  nav ul ul {
+    display: inherit;
+  }
+
+  nav ul li a:after {
+    left: inherit;
+    right: 15px;
+    bottom: inherit;
+    margin-top: 2px;
+  }
+
+  nav ul li a:hover:after {
+    text-shadow: 0 0.8em 0 #fff, 0 -0.8em 0 #fff;
+  }
+
+}

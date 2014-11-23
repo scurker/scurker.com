@@ -1,0 +1,17 @@
+.content {
+  width: 100%;
+  padding: 2em;
+
+  date {
+    color: rgba(0, 0, 0, .4);
+  }
+}
+
+pre {
+  background-color: $bgColor;
+  padding: 1em;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-size: 0.9em;
+  @include monospaceFont;
+}

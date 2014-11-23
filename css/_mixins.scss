@@ -1,0 +1,23 @@
+// Colors
+$bgColor: #fff;
+$accentColor: #3f5660;
+$linkColor: #68c;
+
+// Layouts
+$baseMargin: 1em;
+$baseWidth: 60em;
+$rightColWidth: 40em;
+
+// z-indexes
+$z-index-1: 100;
+$z-index-2: 200;
+$z-index-3: 300;
+
+// Fonts
+@mixin sansSerifFont {
+  font-family: "Noto Sans", sans-serif;
+}
+
+@mixin monospaceFont {
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
+}

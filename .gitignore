@@ -1,0 +1,4 @@
+.DS_store
+thumbs.db
+node_modules
+.sass-cache
