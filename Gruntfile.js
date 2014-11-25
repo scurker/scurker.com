@@ -17,21 +17,21 @@ module.exports = function(grunt) {
     cssmin: {
       minify: {
         files: {
-          'css/style.css': 'css/*.css'
+          'css/global.css': 'css/*.css'
         }
       }
     },
 
     autoprefixer: {
       files: {
-        'css/style.css': 'css/*.css'
+        'css/global.css': 'css/*.css'
       }
     },
 
     sass: {
       compile: {
         files: {
-          'css/style.css': 'css/style.scss'
+          'css/global.css': 'css/global.scss'
         }
       },
       options: {
