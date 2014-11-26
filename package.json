@@ -1,6 +1,7 @@
 {
   "name": "scurker.com",
   "author": "Jason Wilson",
+  "version": "0.4.0",
   "description": "The website of Jason Wilson @scurker",
   "private": true,
   "devDependencies": {
@@ -10,6 +11,7 @@
     "grunt": "~0.4.0",
     "grunt-autoprefixer": "^1.0.1",
     "grunt-contrib-cssmin": "~0.6.0",
+    "grunt-contrib-htmlmin": "^0.3.0",
     "grunt-sass": "~0.6.0",
     "matchdep": "^0.3.0",
     "moment": "^2.8.4",
