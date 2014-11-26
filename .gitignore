@@ -2,3 +2,6 @@
 thumbs.db
 node_modules
 .sass-cache
+
+# static folder
+build/

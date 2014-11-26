@@ -13,6 +13,7 @@
     "grunt-contrib-cssmin": "~0.6.0",
     "grunt-contrib-htmlmin": "^0.3.0",
     "grunt-sass": "~0.6.0",
+    "grunt-shell": "^1.1.1",
     "matchdep": "^0.3.0",
     "moment": "^2.8.4",
     "typogr": "^0.6.4",

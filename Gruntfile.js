@@ -70,6 +70,12 @@ module.exports = function(grunt) {
         style: 'compact',
         sourcemap: true
       }
+    },
+
+    shell: {
+      buildWinterSmith: {
+        command: 'wintersmith build'
+      }
     }
 
   });
@@ -77,6 +83,6 @@ module.exports = function(grunt) {
   require('matchdep').filterAll('grunt-*').forEach(grunt.loadNpmTasks);
 
   grunt.registerTask('default', ['sass', 'autoprefixer', 'cssmin']);
-  grunt.registerTask('build', ['sass', 'autoprefixer', 'cssmin', 'htmlmin']);
+  grunt.registerTask('build', ['sass', 'autoprefixer', 'cssmin', 'shell', 'htmlmin']);
 
 };

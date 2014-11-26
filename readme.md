@@ -19,3 +19,5 @@ Once everything is installed, it's easy to run locally
 
 1. `grunt watch`
 1. `wintersmith preview`
+
+`grunt build` should run all the tasks necessary to deploy the static version of the site.
