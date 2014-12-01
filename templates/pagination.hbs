@@ -1,0 +1,10 @@
+{{~#if pagination}}
+<div class="pagination">
+  {{~#if prev}}
+  <a class="prev" href="{{prev.url}}">{{prev.title}}</a>
+  {{~/if}}
+  {{~#if next}}
+  <a class="next" href="{{next.url}}">{{next.title}}</a>
+  {{~/if}}
+</div>
+{{~/if}}
