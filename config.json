@@ -3,7 +3,8 @@
     "name": "scurker - jason wilson",
     "dateFormat": "D MMM YYYY",
     "author": "Jason Wilson",
-    "description": "Jason Wilson (@scurker) a front-end engineer"
+    "description": "Jason Wilson (@scurker) a front-end engineer",
+    "url": "http://scurker.com"
   },
   "plugins": [
     "./plugins/paginator.coffee",

@@ -7,6 +7,52 @@
   }
 }
 
+.pagination {
+  border-top: 1px solid rgba(0, 0, 0, .2);
+}
+
+.title {
+  font-size: 2em;
+  margin-top: 0;
+}
+
+.prev,
+.next {
+  width: 50%;
+  padding: 1.5em;
+  font-size: .9em;
+  position: relative;
+}
+
+.prev {
+  float: left;
+  text-align: left;
+}
+
+.next {
+  float: right;
+  text-align: right;
+}
+
+.prev:before,
+.next:after {
+  position: absolute;
+  font-size: 1.2em;
+  top: 1.1em;
+  color: #000;
+  opacity: .5;
+}
+
+.prev:before {
+  content: "«";
+  left: .4em;
+}
+
+.next:after {
+  content: "»";
+  right: .4em;
+}
+
 pre {
   background-color: #f9f9f9;
   padding: 1em;
