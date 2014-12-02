@@ -1,8 +1,12 @@
 {{!< layout.hbs }}
 <h2 class="title">{{page.title}}</h2>
 <date>{{date page.date "D MMM YYYY"}}</date>
-<section>
+<section class="post">
   {{{page.html}}}
+</section>
+
+<section class="social">
+  {{> social}}
 </section>
 
 {{{pagination}}}

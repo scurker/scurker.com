@@ -24,6 +24,7 @@ body {
 // Base Styles
 a {
   color: $linkColor;
+  text-decoration: none;
 }
 
 a:hover {
@@ -41,3 +42,4 @@ img {
 @import "css/nav";
 @import "css/content";
 @import "css/responsive";
+@import "css/code";

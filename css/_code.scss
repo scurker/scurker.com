@@ -1,0 +1,54 @@
+pre {
+
+  .variable,
+  .attribute,
+  .tag,
+  .regexp,
+  .xml .tag .title,
+  .xml .pi,
+  .xml .doctype,
+  .html .doctype,
+  .css .id,
+  .css .class,
+  .css .pseudo {
+    color: #c82829;
+  }
+
+  .number,
+  .preprocessor,
+  .built_in,
+  .literal,
+  .params,
+  .constant {
+    color: #f5871f;
+  }
+
+  .string,
+  .value,
+  .inheritance,
+  .header,
+  .xml .cdata {
+    color: #718c00;
+  }
+
+  .comment {
+    color: #999;
+  }
+
+  .css .hexcolor {
+    color: #3e999f;
+  }
+
+  .function,
+  .javascript .title,
+  .coffeescript .title {
+    color: #4271ae;
+  }
+
+  .keyword,
+  .javascript .function {
+    color: #8959a8;
+  }
+
+}
+

@@ -1,19 +1,38 @@
 .content {
   width: 100%;
   padding: 2em;
+  position: relative;
 
   date {
     color: rgba(0, 0, 0, .4);
   }
 }
 
-.pagination {
-  border-top: 1px solid rgba(0, 0, 0, .2);
-}
-
-.title {
+.content > .title {
   font-size: 2em;
   margin-top: 0;
+  font-weight: 300;
+}
+
+.posts {
+
+  date {
+    position: absolute;
+    right: 0;
+  }
+
+  h3 {
+    font-weight: 300;
+  }
+}
+
+.post a {
+  text-decoration: underline;
+}
+
+.pagination {
+  margin-top: 1em;
+  border-top: 1px solid rgba(0, 0, 0, .2);
 }
 
 .prev,
@@ -53,10 +72,14 @@
   right: .4em;
 }
 
+.social {
+  padding-top: 2em;
+  text-align: center;
+}
+
 pre {
   background-color: #f9f9f9;
   padding: 1em;
   border-radius: 6px;
-  overflow-x: auto;
   @include monospaceFont;
 }
