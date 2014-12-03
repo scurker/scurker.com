@@ -83,3 +83,9 @@ pre {
   border-radius: 6px;
   @include monospaceFont;
 }
+
+footer {
+  padding-top: 3em;
+  font-size: .8em;
+  opacity: .8;
+}

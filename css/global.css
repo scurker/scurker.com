@@ -175,6 +175,11 @@ pre {
   border-radius: 6px;
   font-family: Monaco, Consolas, "Lucida Console", monospace; }
 
+footer {
+  padding-top: 3em;
+  font-size: 0.8em;
+  opacity: 0.8; }
+
 @media (min-width: 61em) {
   .content {
     margin-left: 20em;
