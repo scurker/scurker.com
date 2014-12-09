@@ -5,19 +5,28 @@ title: "Resumé of Jason Wilson"
 <link rel="stylesheet" href="resume.css"/>
 <div class="hresume">
   <h1 class="fn">Jason Wilson</h1>
-  <address class="vcard">
+  <address class="vcard contact">
     <div><a class="email" href="mailto:jason@scurker.com">jason@scurker.com</a></div>
     <div class="tel">205.613.3126</div>
     <div><a class="url" href="http://twitter.com/scurker">@scurker</a> on twitter</div>
     <div><a class="url" href="http://scurker.com">http://scurker.com</a></div>
   </address>
-  <section class="experience">
+  <section>
     <h2>Experience</h2>
     <ul>
-      <li>
+      <li class="experience">
+        <h3>Interaction Designer</h3>
+        <h4>Daxko</h4>
+        <date>October 2013 - Present</date>
+        <ul>
+          <li>Performed a complete interface overhaul for both accounting and operation applications updating a 6+ year old design.</li>
+          <li>Implemented an automatic asset pipeline as part of the build process to reduce the amount of manual work needed to compile assets. This helped to reduce the number of asset requests per page from 40 down to less than 5.</li>
+        </ul>
+      </li>
+      <li class="experience">
         <h3>Software Engineer</h3>
         <h4>Daxko</h4>
-        <date>April 2011 - Present</date>
+        <date>April 2011 - October 2013</date>
         <ul>
           <li>Lead Interaction Designer for the accounting application.</li>
           <li>Helped to convert the framework accounting application from a 5 year old version of EXT to the latest version of jQuery.</li>
@@ -25,7 +34,7 @@ title: "Resumé of Jason Wilson"
           <li>Created a new set of icons to be used across company applications.</li>
         </ul>
       </li>
-      <li>
+      <li class="experience">
         <h3>Web Developer</h3>
         <h4>Infinity Insurance</h4>
         <date>February 2011 - April 2011</date>
@@ -33,29 +42,29 @@ title: "Resumé of Jason Wilson"
           <li>Created a portable javascript widget that would allow notes to be created for claims from any web application.</li>
         </ul>
       </li>
-      <li>
+      <li class="experience">
         <h3>Software Engineer</h3>
         <h4>Infinity Insurance</h4>
         <date>July 2009 - February 2011</date>
         <ul>
-          <li>Led user interface development for a new First Notice of Loss application.</li>
-          <li>Performed frequent usability studies to help guide development.</li>
+          <li>Led user interface development for a new first notice of loss application.</li>
+          <li>Performed frequent usability studies to help reduce the amount of time it takes to capture a claim during a first notice of loss phone call.</li>
           <li>Helped draft new user interface requirements using common standards.</li>
           <li>Created a front end framework to interface with a legacy mainframe system.</li>
-          <li>Developed a process to analyze data integrity between mainframes and database tables.</li>
+          <li>Developed a process to analyze data integrity between mainframes and database tables during a data migration project for data being migrated from mainframe to database tables.</li>
         </ul>
       </li>
-      <li>
+      <li class="experience">
         <h3>Application Developer</h3>
         <h4>Infinity Insurance</h4>
         <date>July 2007 - July 2009</date>
         <ul>
           <li>Created an internal project workflow system to help keep track of internal business requirements.</li>
           <li>Adapted a plugin to publish and sync business requirements to the company wiki.</li>
-          <li>Fixed maintenance bugs and defects for the company’s claims system.</li>
+          <li>Fixed maintenance bugs and investigated defects for the claims system.</li>
         </ul>
       </li>
-      <li>
+      <li class="experience">
         <h3>Java Programming Intern</h3>
         <h4>Infinity Insurance</h4>
         <date>May 2006 - August 2006</date>
@@ -67,39 +76,57 @@ title: "Resumé of Jason Wilson"
   </section>
   <section class="education">
     <h2>Education</h2>
-    Samford University
-    August 2003 - May 2007
-    Howard College of Arts and Sciences, Birmingham, Alabama
-    Bachelor of Science, with a Major in Computer Science and a Minor in Music
+    <h3>Samford University</h3>
+    <h4>Howard College of Arts and Sciences, Birmingham, Alabama</h4>
+    <date>August 2003 - May 2007</date>
+    <p>Bachelor of Science, with a Major in Computer Science and a Minor in Music</p>
+    <p>Samford University Deans List - Fall 2004, Spring 2007</p>
   </section>
   <section class="skills">
     <h2>Tools &amp; Abilities</h2>
-      Javascript (including jQuery, Prototype)
-      CSS, LessCSS, Sass
-      PHP
-      Subversion, git, CVS
-      HTML, XHTML, HTML5
-      Wordpress, Drupal
-      Java (including Struts, Spring, Hibernate)
-      MySQL, Oracle, SQL Server, Sqlite
+    <ul class="skills">
+      <li class="skill">Javascript</li>
+      <li class="skill">jQuery</li>
+      <li class="skill">Prototype</li>
+      <li class="skill">CSS2, CSS3</li>
+      <li class="skill">LessCSS, Sass</li>
+      <li class="skill">PHP</li>
+      <li class="skill">Java</li>
+      <li class="skill">C#/.NET</li>
+      <li class="skill">Subversion</li>
+      <li class="skill">git</li>
+      <li class="skill">CVS</li>
+      <li class="skill">HTML, HTML5</li>
+      <li class="skill">Wordpress</li>
+      <li class="skill">Drupal</li>
+      <li class="skill">nodejs</li>
+      <li class="skill">MySQL</li>
+      <li class="skill">Oracle</li>
+      <li class="skill">SQL Server</li>
+      <li class="skill">Sqlite</li>
+    </ul>
   </section>
   <section class="awards">
     <h2>Awards &amp; Honors</h2>
-    Presented, “HTML5 and Mobile Development”
-    at Samford University, Birmingham, Alabama
-
-    Presented, “Go Mobile, Developing for a Mobile Web”
-    at TechMixer University, Birmingham, Alabama
-    October 2012
-
-
-    September 2011
-
-    Presented, “Developing with HTML 5 and CSS 3”
-    at Birmingham Bar Camp, Birmingham, Alabama
-    August 2008
-
-    Samford University Deans List
-    Fall 2004, Spring 2007
+    <ul>
+      <li class="vevent">
+        Presented, “HTML5 and Mobile Development”
+        at Samford University, Birmingham, Alabama
+        October 2012
+      </li>
+      <li class="vevent">
+        Presented, “Go Mobile, Developing for a Mobile Web”
+        at TechMixer University, Birmingham, Alabama
+        September 2011
+      </li>
+      <li class="vevent">
+        Presented, “Developing with HTML 5 and CSS 3”
+        at Birmingham Bar Camp, Birmingham, Alabama
+        August 2008
+      </li>
+    </ul>
   </section>
+  <footer>
+    Jason Wilson - jason@scurker.com - 205.613.3126
+  </footer>
 </div>

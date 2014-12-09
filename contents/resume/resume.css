@@ -3,6 +3,7 @@ body {
   background-color: rgba(0, 0, 0, .1);
   margin: 2em;
 }
+
 .fn {
   margin-top: 0;
   font-size: 3em;
@@ -13,12 +14,14 @@ body {
   text-align: center;
   font-weight: 400;
 }
+
 .hresume {
   width: 800px;
   margin: 0 auto;
   background-color: #fff;
   padding: 2em;
 }
+
 h2 {
   padding: .5em;
   color: #fff;
@@ -26,25 +29,29 @@ h2 {
   text-shadow: -1px 0 rgba(0, 0, 0, .25);
   font-weight: 200;
 }
+
 section {
   clear: both;
 }
+
 address {
   float: right;
   text-align: right;
   line-height: 1.5em;
   color: rgba(0, 0, 0, .6);
 }
+
 a {
   color: #64e;
 }
+
 section > ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
-section > ul > li {
+li.experience {
   margin-top: 2em;
 }
 
@@ -54,19 +61,33 @@ h3, h4 {
   font-size: 1.2em;
   font-weight: 600;
 }
+
 h4 {
   font-weight: 400;
   opacity: .4;
   display: inline-block;
   padding-left: .3em;
 }
-h4:before {
+
+.experience h4:before {
   content: " at ";
 }
+
 date {
   display: block;
   clear: both;
   padding: .5em 0;
   font-style: italic;
   font-size: .9em;
+}
+
+.skills {
+  overflow: hidden;
+}
+
+.skills li {
+  display: inline-block;
+  float: left;
+  width: 25%;
+  margin-top: .3em;
 }
