@@ -5,7 +5,7 @@ date: 2010-06-04
 
 Particle effects are pretty awesome. Particles by themselves are fairly simple, but by generating multitudes of particles with set variables you can create a range of effects such as fire, smoke, or water. A particle generator or emitter allows you to adjust the variables giving you control over the types of effects you can generate.
 
-<a href="/projects/particles"><img class="alignleft" src="/images/particles.png" alt="Particle Generator" title="Particle Generator"/></a>I've been working on another project that needed a particle generator, thus this demonstration was born.
+I've been working on another project that needed a particle generator, thus this demonstration was born.
 
 There are several presets I've included, but you can easily generate new types of effects by playing around with the available variables on the presets.
 
