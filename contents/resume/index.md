@@ -1,6 +1,6 @@
 ---
 template: empty.hbs
-title: "Resumé of Jason Wilson"
+title: "Résumé of Jason Wilson"
 ---
 <link rel="stylesheet" href="resume.css"/>
 <div class="hresume">
