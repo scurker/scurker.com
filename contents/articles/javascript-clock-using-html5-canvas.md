@@ -3,7 +3,9 @@ title: "Javascript Clock using HTML5 and Canvas"
 date: 2010-04-20
 ---
 
-<script type="text/javascript" src="/projects/jclock/jclock.js"></script><script type="text/javascript">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="/projects/jclock/jclock.js"></script>
+<script type="text/javascript">
   $(window).ready(function() {
     new jClock('/projects/jclock/clock.png', $('canvas').get(0));
   });
@@ -84,4 +86,4 @@ jClock.defaults = {
 
 Feel free to download the source code and play around with it, or ask any questions you may have in the comments below.
 
-(Download jclock.js (2.4k))[Download jclock.js (2.4k)]
+[Download jclock.js (2.4k)](/projects/jclock/jclock.js)
