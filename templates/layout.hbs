@@ -5,12 +5,10 @@
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
   <meta name="author" content="{{author}}"/>
   <meta name="description" content="{{description}}"/>
-  <link href="http://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="/css/global.css"/>
   <title>{{name}}</title>
 </head>
 <body>
-  <nav>
+  <nav role="navigation">
     <a class="name" href="/">
       <img src="/images/profile.png"/>
       <h1>jason wilson</h1>
@@ -34,12 +32,14 @@
       </li>
     </ul>
   </nav>
-  <div class="content">
+  <div class="content" role="main">
     {{{body}}}
     <footer>
       Built with ♥ by Jason Wilson. Everything you see is available on <a href="https://github.com/scurker/scurker.com">Github</a> under the <a href="https://github.com/scurker/scurker.com/blob/master/license">MIT license</a>.
     </footer>
   </div>
+  <link href="http://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/css/global.css"/>
   {{> analytics}}
 </body>
 </html>
