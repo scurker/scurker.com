@@ -10,12 +10,14 @@
     width: ($baseWidth - $rightColWidth) - 4em;
     padding: 0;
     margin: 0;
+    height: auto;
   }
 
   nav .social {
     width: 100%;
     display: block;
     margin: 1em 0;
+    position: static;
   }
 
   nav a.name {
@@ -27,6 +29,7 @@
   nav ul {
     text-align: left;
     clear: both;
+    position: static;
   }
 
   nav ul li,
@@ -47,6 +50,32 @@
 
   nav ul li a:hover:after {
     text-shadow: 0 0.8em 0 #fff, 0 -0.8em 0 #fff;
+  }
+
+}
+
+@media (max-width: 40em) {
+
+  nav {
+    height: auto;
+  }
+
+  nav ul {
+    position: static;
+    padding-top: 0;
+  }
+
+}
+
+@media (max-width: 25em) {
+
+  nav .social {
+    position: static;
+  }
+
+  .name h1 {
+    width: auto;
+    line-height: 64px;
   }
 
 }
