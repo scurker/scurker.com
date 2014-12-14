@@ -40,7 +40,8 @@ nav {
     position: absolute;
     top: 0;
     width: 100%;
-    padding-top: 0.8em; }
+    padding-top: 0.8em;
+    z-index: 1; }
   nav ul li {
     display: inline-block; }
   nav ul ul {
@@ -78,7 +79,8 @@ nav {
     position: absolute;
     right: 0;
     top: 0.8em;
-    padding: 0.8em 1.6em; }
+    padding: 0.8em 1.6em;
+    z-index: 2; }
     nav .social a {
       display: inline-block;
       height: 2em;
