@@ -1,6 +1,6 @@
 ---
 title: "Bring on a new scurker.com"
-date: 2014-12-02
+date: 2014-12-14
 ---
 
 Welcome to the redesign and relaunch of scurker.com! It's been far too long in my professional career that I have neglected this site, and felt that a new fresh coat of paint was long overdue.
@@ -22,8 +22,12 @@ Bring on [wintersmith](http://wintersmith.io/), a nodejs static site generator. 
 * [grunt](http://gruntjs.com)
 * [noto sans font](http://www.google.com/fonts/specimen/Noto+Sans)
 
-There's some slightly modified plugins to wintersmith to allow for article to article pagination and a more sensible permalink structure. You can check out everything on [github](http://github.com/scurker/scurker.com). If you come across any issues, be sure to let me know on [github](https://github.com/scurker/scurker.com/issues).
+There's some slightly modified plugins to wintersmith to allow for article to article pagination and a more sensible permalink structure.
 
 ### No more jQuery
 
-I'm a big fan of jQuery, but I have been [slowly moving away from having jQuery](http://youmightnotneedjquery.com/) as a dependency unless absolutely necessary.
+I'm a big fan of jQuery, but I have been [slowly moving away from having jQuery](http://youmightnotneedjquery.com/) as a dependency unless absolutely necessary. So you won't see very much jQuery used here.
+
+### Open Sourced
+
+I've learned a lot through open source projects, and have spoken many times about the importance of open source. However, my own blog I kept private and didn't share what I knew. I figured it's time to start putting money where my mouth is and release the source for this site. Sure, no one may want to use or fork the code by maybe they can learn something from it. You can check out everything on [github](http://github.com/scurker/scurker.com). If you come across any issues, be sure to [let me know](https://github.com/scurker/scurker.com/issues).
