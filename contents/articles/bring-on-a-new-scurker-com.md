@@ -30,4 +30,4 @@ I'm a big fan of jQuery, but I have been [slowly moving away from having jQuery]
 
 ### Open Sourced
 
-I've learned a lot through open source projects, and have spoken many times about the importance of open source. However, my own blog I kept private and didn't share what I knew. I figured it's time to start putting money where my mouth is and release the source for this site. Sure, no one may want to use or fork the code by maybe they can learn something from it. You can check out everything on [github](http://github.com/scurker/scurker.com). If you come across any issues, be sure to [let me know](https://github.com/scurker/scurker.com/issues).
+I've learned a lot through open source projects, and have spoken many times about the importance of open source. However, my own blog I kept private and didn't share what I knew. I figured it's time to start putting money where my mouth is and release the source for this site. You can check out everything on [github](http://github.com/scurker/scurker.com). If you come across any issues, be sure to [let me know](https://github.com/scurker/scurker.com/issues).
