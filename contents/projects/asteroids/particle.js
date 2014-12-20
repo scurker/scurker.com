@@ -54,13 +54,12 @@ var ParticleGenerator = function(options) {
   this.options = options;
   this.active = true;
   this.age = 0;
+  this.particles = [];
 
   return this;
 };
 
 ParticleGenerator.prototype = {
-
-  particles: [],
 
   update: function() {
 

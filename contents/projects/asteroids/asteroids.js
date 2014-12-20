@@ -327,16 +327,16 @@ function Asteroids(canvas) {
             var options = {
               shape: 'square',
               position: enemy.p.clone(),
-              velocity: new Vector({y: -3}),
+              velocity: new Vector({y: -1}),
               xVariance: 0,
               yVariance: 0,
               spawnSpeed: 2,
-              generations: 250, // was 25
-              maxParticles: 10,
+              generations: 20, // was 25
+              maxParticles: 20,
               size: 2,
               sizeVariance: 0,
-              life: 40,
-              lifeVariance: 10,
+              life: 50,
+              lifeVariance: 15,
               direction: 0,
               directionVariance: 180,
               color: '#fff',
