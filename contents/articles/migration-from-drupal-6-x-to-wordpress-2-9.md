@@ -144,7 +144,7 @@ UPDATE wp_posts
 
 Drupal's URL aliases is equivalent to Wordpress' permalinks. Drupal has a much more aggressive title sanitation than Wordpress. I wanted the ability to keep my titles the same for SEO reasons when migrating over to Wordpress.
 
-In order to keep my old titles, I need to hook into Wordpress' (title sanitation)[http://codex.wordpress.org/Function_Reference/sanitize_title] with similar rules to Drupal. The below code will need to be placed somewhere in the `functions.php` file of your current theme.
+In order to keep my old titles, I need to hook into Wordpress' [title sanitation](http://codex.wordpress.org/Function_Reference/sanitize_title) with similar rules to Drupal. The below code will need to be placed somewhere in the `functions.php` file of your current theme.
 
 ```php
 add_filter('sanitize_title', 'my_sanitize_title');
