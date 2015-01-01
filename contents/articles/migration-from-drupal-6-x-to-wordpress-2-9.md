@@ -146,7 +146,7 @@ Drupal's URL aliases is equivalent to Wordpress' permalinks. Drupal has a much m
 
 In order to keep my old titles, I need to hook into Wordpress' (title sanitation)[http://codex.wordpress.org/Function_Reference/sanitize_title] with similar rules to Drupal. The below code will need to be placed somewhere in the `functions.php` file of your current theme.
 
-```sql
+```php
 add_filter('sanitize_title', 'my_sanitize_title');
 function my_sanitize_title($title) {
   $title = preg_replace('/\b(a|an|as|at|before|but|by|for|from|is|in|into|like|of|off|on|onto|per|since|than|the|this|that|to|up|via|with)\b/i', '', $title);

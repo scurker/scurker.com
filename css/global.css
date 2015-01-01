@@ -10,7 +10,7 @@ body {
   font-family: "Noto Sans", sans-serif;
   line-height: 1.4; }
 
-a {
+a, a:visited {
   color: #6699aa;
   text-decoration: none; }
 
@@ -101,6 +101,7 @@ nav {
       background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAABxgAAAcYBF8H6RgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAKkSURBVFiFzZc/TFRBEMY/kICFVtIcMbHRXHFYaEVHQaHRkFAJRmoxFiR0NFpoYeGZGGKBiUQTEkUrYiUdDVZWqPHfhVh5IUENhwoKx8/i9h3D+u69vcsR/JIN72Zmv/l4O29ntwVQnchJOikpI6nL2b5IKkp6LeltXWxAyMgCeaBAOgouNhvCnRaQASaBzYDEPjbd3EyjAvqBUgOJfZQcV10CxoFyE5JHKDvOIAHjTUzs4x8Rca/d/88/AkvAehMElPGWwy+4uDUfMDGdwAXgCbDaoIgSpjCtgMkaE6wAO9qBq8ByAyImfQFZan9qtQRE4xBwI2F+HDZdzqqAfELwb+Az8BK4B/QBbTFC+oBvdYjIWwEhO5zFMjBKZRmsiOPAp0COQiQglxI4BywAP2N8S0CPJ+IE8D1QRE7AUEpQVAMHgG5gBCga/wYw7Ik4A2wFCBhqdV0tBGVJbyTdl9Qt6Zmzd0ialjRsYuck3Q7gzLRqp6XWwjGXxOKrpEFJFyWtOtsDST0m5paklRTurtYAlXclrUl6Jem6pHbjm5F0xT13SHps/CVJN1PZgbHAgomwCJz21vyp8Y8aewfJHXUspAjj8McTcYSdwlymUrCRbyaBZyjkMywDj4BzwAQ7TWmR3fvAiJnTa+yDCdy5kI3oObtf94TxXTP2bmO/Y+ydNXgLgKIinE0okxcJv/vN8ztJv9zzKWNfkbQRwzsbFWFaM5r33sBD41tnd19YcPb33pwlj7PajNqcmg+SpiSNxCjtlTSvysZzVtJ54zso6bIqx3JJ+uH+HpU0YOK2PM4pl1MtUL0XZJzxcIyIZmJNUlaVe4TsRlSUdEnS9h4m33Y5ilWLt1b7fij9L47l9oS8bxcTe1Let6uZHXt2ObWfYSiaej3/C9SonLOn6/gGAAAAAElFTkSuQmCC); }
 
 nav a.name {
+  text-align: center;
   text-decoration: none;
   color: white; }
 
@@ -110,15 +111,16 @@ nav a.name {
   line-height: 32px;
   font-weight: 400;
   width: 80px;
-  display: inline-block; }
+  display: inline-block;
+  text-align: left;
+  vertical-align: top; }
 
 nav img {
   margin: 0 1em;
   height: 64px;
   width: 64px;
   border: 3px solid rgba(255, 255, 255, 0.2);
-  border-radius: 45px;
-  float: left; }
+  border-radius: 45px; }
 
 .content {
   width: 100%;
@@ -198,6 +200,8 @@ footer {
     padding: 0;
     margin: 0;
     height: auto; }
+  nav img {
+    margin-left: 0; }
   nav .social {
     width: 100%;
     display: block;
@@ -237,6 +241,9 @@ footer {
     width: auto;
     line-height: 64px; } }
 
+pre > code {
+  display: block;
+  overflow-y: auto; }
 pre .variable, pre .attribute, pre .tag, pre .regexp, pre .xml .tag .title, pre .xml .pi, pre .xml .doctype, pre .html .doctype, pre .css .id, pre .css .class, pre .css .pseudo {
   color: #c82829; }
 pre .number, pre .preprocessor, pre .built_in, pre .literal, pre .params, pre .constant {

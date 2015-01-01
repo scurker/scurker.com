@@ -22,7 +22,8 @@ body {
 }
 
 // Base Styles
-a {
+a,
+a:visited {
   color: $linkColor;
   text-decoration: none;
 }
