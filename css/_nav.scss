@@ -35,7 +35,8 @@ nav {
     transition-property: background-color, color, opacity;
   }
 
-  li a {
+  li a,
+  li a:visited {
     display: inline-block;
     color: #fff;
     padding: 1.2em 1.6em;

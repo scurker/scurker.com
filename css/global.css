@@ -50,16 +50,16 @@ nav {
   nav a {
     transition: all ease-in-out 0.25s;
     transition-property: background-color, color, opacity; }
-  nav li a {
+  nav li a, nav li a:visited {
     display: inline-block;
     color: white;
     padding: 1.2em 1.6em;
     text-decoration: none;
     position: relative; }
-    nav li a:hover {
+    nav li a:hover, nav li a:visited:hover {
       color: white;
       background-color: rgba(255, 255, 255, 0.1); }
-    nav li a:after {
+    nav li a:after, nav li a:visited:after {
       position: absolute;
       left: 50%;
       margin-left: -0.2em;
@@ -69,7 +69,7 @@ nav {
       transition-property: opacity, text-shadow;
       opacity: 0;
       font-size: 0.7em; }
-    nav li a:hover:after {
+    nav li a:hover:after, nav li a:visited:hover:after {
       opacity: 1;
       text-shadow: 0.8em 0 0 white, -0.8em 0 0 white; }
   nav ul ul a {
