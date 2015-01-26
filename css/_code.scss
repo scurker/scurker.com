@@ -9,13 +9,13 @@ pre {
   .attribute,
   .tag,
   .regexp,
-  .xml .tag .title,
-  .xml .pi,
-  .xml .doctype,
-  .html .doctype,
-  .css .id,
-  .css .class,
-  .css .pseudo {
+  .lang-xml .tag .title,
+  .lang-xml .pi,
+  .lang-xml .doctype,
+  .lang-html .doctype,
+  .lang-css .id,
+  .lang-css .class,
+  .lang-css .pseudo {
     color: #c82829;
   }
 
@@ -32,7 +32,7 @@ pre {
   .value,
   .inheritance,
   .header,
-  .xml .cdata {
+  .lang-xml .cdata {
     color: #718c00;
   }
 
@@ -45,15 +45,14 @@ pre {
   }
 
   .function,
-  .javascript .title,
-  .coffeescript .title {
+  .lang-javascript .title,
+  .lang-coffeescript .title {
     color: #4271ae;
   }
 
   .keyword,
-  .javascript .function {
+  .lang-javascript .function {
     color: #8959a8;
   }
 
 }
-
