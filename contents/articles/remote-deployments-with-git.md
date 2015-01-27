@@ -37,7 +37,7 @@ npm install -g grunt-cli
 
 ### Create post receive hook
 
-We'll be using a [post receive hook](http://git-scm.com/docs/githooks#post-receive) to run tasks after commits are received, such as building the site. Since your git direction probably isn't where you're serving up your files, you can use `--work-tree` to set the working directory for your committed files.
+We'll be using a [post receive hook](http://git-scm.com/docs/githooks#post-receive) to run tasks after commits are received, such as building the site. Since your git directory probably isn't where you're serving up your files, you can use `--work-tree` to set the working directory for your committed files.
 
 #### post-receive hook
 
@@ -92,7 +92,7 @@ If everything worked successfully, you should be able to view your site and see 
 
 #### Add SSH key
 
-Don't like typing your username and password every time you deploy? You can use a public SSH key to authenticate every time you do your push to deploy. If you don't already have SSH keys, you can [follow this guide through step 2](https://help.github.com/articles/generating-ssh-keys/) to generate your SSH key.
+Don't like typing your username and password every time you deploy? You can use a public SSH key to authenticate every time you do your push to deploy. If you haven't already generated your SSH keys, you can [follow this guide through step 2](https://help.github.com/articles/generating-ssh-keys/).
 
 From there, you can simply copy your public key to your server.
 
