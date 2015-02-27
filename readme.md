@@ -10,7 +10,6 @@ Requires node.js
 
   `npm install -g wintersmith`
 
-
 1. Install npm
 
   `npm install`
