@@ -11,6 +11,9 @@
 
 {{{pagination}}}
 
+{{! Only have disqus show up when we're live }}
+{{~#is env.mode "build"}}
 <section class="comments">
   {{> comments}}
 </section>
+{{~/is}}

@@ -1,0 +1,10 @@
+language: node_js
+node_js: '0.10'
+branches:
+  only: master
+env:
+  global:
+    secure: QvNaYiAAqP9reRyVqr19nX3MkYlxDhbLgIhs0b1ZGxiUtMbuzo4KcAWfnhfRpeHYfoPRUVbiOAia/vUbJl0oMOuwGXE0D48JJh7TVIWAlweB9842pX64G06g2vdnLMp5DIRPCV0a0IpEmTbkLkx7r+Kq6uOTLSxDzQhZp0mjcTU=
+after_success:
+  - git remote add deploy $remote
+  - git push deploy
