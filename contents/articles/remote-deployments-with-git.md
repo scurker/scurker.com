@@ -7,8 +7,8 @@ I've been deploying using git for my static and node sites for several months an
 
 ### Getting Started
 
-* Remote server
-* SSH access
+* Remote server for hosting your site
+* SSH access on remote server
 * Git installed locally and remotely
 * (optional) npm installed remotely
 * (optional) grunt installed remotely
@@ -100,4 +100,4 @@ From there, you can simply copy your public key to your server.
 cat ~/.ssh/id_rsa.pub | ssh user@example.com "cat >> ~/.ssh/authorized_keys"
 ```
 
-Everything you see above could also be implemented with [travis ci](https://travis-ci.org/) for an even easier deployment process -- but that's a topic for another time. If you have something to add, [let me know on twitter](https://twitter.com/scurker).
+What if you could automate your deployments? You can continue on reading on how you can enhance the push to deploy by making your deployments [completely automated with Travis CI](/automated-deploys-with-travis).
