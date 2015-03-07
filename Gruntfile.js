@@ -19,7 +19,7 @@ module.exports = function(grunt) {
     watch: {
       sass: {
         files: ['<%= config.css %>*.{scss,sass}'],
-        tasks: ['sass:compile', 'autoprefixer']
+        tasks: ['sass:compile', 'imageEmbed', 'autoprefixer']
       },
       options: {
         livereload: true
@@ -72,6 +72,15 @@ module.exports = function(grunt) {
       }
     },
 
+    // This is fine for badges, but if any other images are added
+    // they may not need to be inlined. Caution ahead!
+    imageEmbed: {
+      dist: {
+        src: ['<%= config.css %>global.css'],
+        dest: '<%= config.css %>global.css'
+      }
+    },
+
     shell: {
       wintersmith: {
         command: 'wintersmith build'
@@ -82,7 +91,7 @@ module.exports = function(grunt) {
 
   require('matchdep').filterAll('grunt-*').forEach(grunt.loadNpmTasks);
 
-  grunt.registerTask('default', ['sass', 'autoprefixer', 'cssmin']);
-  grunt.registerTask('build', ['sass', 'autoprefixer', 'cssmin', 'shell']);
+  grunt.registerTask('default', ['sass', 'autoprefixer', 'imageEmbed', 'cssmin']);
+  grunt.registerTask('build', ['default', 'shell']);
 
 };

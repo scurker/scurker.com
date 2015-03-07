@@ -13,9 +13,9 @@
    height="250"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.2 r9819"
-   sodipodi:docname="twitter_badge.svg"
-   inkscape:export-filename="/Users/jason/Sites/scurker.com/images/twitter_badge.png"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="flickr_badge.svg"
+   inkscape:export-filename="/Users/jason/Sites/scurker.com/images/flickr_badge.png"
    inkscape:export-xdpi="11.52"
    inkscape:export-ydpi="11.52">
   <defs
@@ -27,14 +27,14 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="128.14405"
-     inkscape:cy="81.060734"
+     inkscape:zoom="1.979899"
+     inkscape:cx="115.74374"
+     inkscape:cy="117.81544"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1280"
-     inkscape:window-height="752"
+     inkscape:window-height="751"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -50,6 +50,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -59,19 +60,9 @@
      id="layer1"
      transform="translate(-282.07284,-287.45254)">
     <path
-       style="fill:#cccccc;stroke:none"
-       d="m 528.85856,412.45254 c 0,67.26038 -54.52534,121.78571 -121.78572,121.78571 -67.2604,0 -121.78572,-54.52533 -121.78572,-121.78571 0,-67.2604 54.52533,-121.78571 121.78572,-121.78571 67.26038,0 121.78572,54.52532 121.78572,121.78571 z"
-       id="path3199"
-       inkscape:connector-curvature="0" />
-    <g
-       id="g2989"
-       transform="matrix(0.11049833,0,0,-0.11049833,329.50426,475.75982)"
-       style="fill:#00aced;fill-opacity:1;stroke:none">
-      <path
-         id="path2991"
-         d="M 877,1126 C 752,1081 673,965 682,838 l 3,-49 -50,6 C 453,818 294,896 159,1027 l -66,65 -17,-48 C 40,937 63,824 138,748 c 40,-42 31,-48 -38,-23 -24,8 -45,14 -47,11 -7,-7 17,-98 36,-134 26,-50 79,-99 137,-128 l 49,-23 -58,-1 c -56,0 -58,-1 -52,-22 20,-65 99,-134 187,-164 l 62,-21 -54,-32 C 280,165 186,139 92,137 47,136 10,132 10,129 10,119 132,63 203,41 416,-24 669,4 859,115 c 135,79 270,236 333,388 34,81 68,229 68,300 0,46 3,52 59,107 33,32 64,67 70,77 10,19 9,19 -42,2 -85,-30 -97,-26 -55,19 31,32 68,90 68,107 0,3 -15,-2 -32,-11 -18,-10 -58,-25 -88,-34 l -54,-17 -49,33 c -27,18 -65,38 -85,44 -51,14 -129,12 -175,-4 z"
-         inkscape:connector-curvature="0"
-         style="fill:#00aced;fill-opacity:1" />
-    </g>
+       style="fill:#ffffff;stroke:none"
+       d="M 125 3.2148438 C 57.73961 3.2148438 3.2148437 57.7396 3.2148438 125 C 3.2148438 192.26038 57.7396 246.78516 125 246.78516 C 192.26038 246.78516 246.78516 192.26038 246.78516 125 C 246.78516 57.73961 192.26038 3.2148437 125 3.2148438 z M 80.357422 89.642578 A 35.357144 35.357144 0 0 1 115.71484 125 A 35.357144 35.357144 0 0 1 80.357422 160.35742 A 35.357144 35.357144 0 0 1 45 125 A 35.357144 35.357144 0 0 1 80.357422 89.642578 z M 169.64258 89.642578 A 35.357144 35.357144 0 0 1 205 125 A 35.357144 35.357144 0 0 1 169.64258 160.35742 A 35.357144 35.357144 0 0 1 134.28516 125 A 35.357144 35.357144 0 0 1 169.64258 89.642578 z "
+       transform="translate(282.07284,287.45254)"
+       id="path3199" />
   </g>
 </svg>

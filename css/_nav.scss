@@ -80,31 +80,13 @@ nav {
 
     a {
       display: inline-block;
-      height: 2em;
-      width: 2em;
       margin-right: 0.25em;
-      border-radius: 2em;
+      border-radius: 50%;
       opacity: 0.5;
       text-indent: -9999px;
       &:hover {
         opacity: 1;
       }
-    }
-
-    .twitter {
-      @include twitter-badge;
-    }
-
-    .github {
-      @include github-badge;
-    }
-
-    .flickr {
-      @include flickr-badge;
-    }
-
-    .rss {
-      @include rss-badge;
     }
 
   }
@@ -132,6 +114,5 @@ nav img {
   margin: 0 1em;
   height: 64px;
   width: 64px;
-  border: 3px solid rgba(255, 255, 255, 0.2);
   border-radius: 45px;
 }

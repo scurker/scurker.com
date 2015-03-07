@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="250"
+   height="250"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="twitter_badge.svg"
+   inkscape:export-filename="/Users/jason/Sites/scurker.com/images/twitter_badge.png"
+   inkscape:export-xdpi="11.52"
+   inkscape:export-ydpi="11.52">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="128.14405"
+     inkscape:cy="81.060734"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="751"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-282.07284,-287.45254)">
+    <path
+       style="fill:#ffffff;stroke:none"
+       d="M 125 3.2148438 C 57.73961 3.2148438 3.2148438 57.7396 3.2148438 125 C 3.2148438 192.26038 57.7396 246.78516 125 246.78516 C 192.26038 246.78516 246.78516 192.26038 246.78516 125 C 246.78516 57.73961 192.26038 3.2148438 125 3.2148438 z M 153.80078 62.421875 C 157.29529 62.339001 160.85807 62.669871 163.67578 63.443359 C 165.88575 64.106349 170.0849 66.317671 173.06836 68.306641 L 178.48242 71.953125 L 184.44922 70.074219 C 187.76417 69.079734 192.18486 67.42139 194.17383 66.316406 C 196.0523 65.321921 197.70898 64.770068 197.70898 65.101562 C 197.70898 66.980034 193.62076 73.389835 190.19531 76.925781 C 185.55438 81.898206 186.88108 82.340341 196.27344 79.025391 C 201.90885 77.146919 202.01905 77.146625 200.91406 79.246094 C 200.25107 80.351077 196.82613 84.21796 193.17969 87.753906 C 186.99178 93.831314 186.66016 94.493249 186.66016 99.576172 C 186.66016 107.42155 182.90147 123.7762 179.14453 132.72656 C 172.18314 149.52231 157.26688 166.87024 142.34961 175.59961 C 121.35493 187.86492 93.399426 190.95974 69.863281 183.77734 C 62.0179 181.34638 48.537109 175.15772 48.537109 174.05273 C 48.537109 173.72124 52.625231 173.28042 57.597656 173.16992 C 67.984499 172.94893 78.371071 170.07511 87.210938 164.99219 L 93.177734 161.45703 L 86.326172 159.13477 C 76.602319 155.81982 67.874029 148.19606 65.664062 141.01367 C 65.001073 138.69321 65.22225 138.58398 71.410156 138.58398 L 77.818359 138.47266 L 72.404297 135.93164 C 65.995394 132.72719 60.138582 127.31203 57.265625 121.78711 C 55.166157 117.80917 52.513621 107.75396 53.287109 106.98047 C 53.508106 106.64897 55.828509 107.31133 58.480469 108.19531 C 66.104854 110.95777 67.099621 110.29523 62.679688 105.6543 C 54.392313 97.256424 51.852138 84.770587 55.830078 72.947266 L 57.707031 67.642578 L 65 74.826172 C 79.917275 89.301453 97.48696 97.919476 117.59766 100.46094 L 123.12305 101.125 L 122.79102 95.708984 C 121.79653 81.675696 130.5256 68.859144 144.33789 63.886719 C 146.87935 63.002732 150.30627 62.504749 153.80078 62.421875 z "
+       transform="translate(282.07284,287.45254)"
+       id="path3199" />
+    <g
+       id="g2989"
+       transform="matrix(0.11049833,0,0,-0.11049833,329.50426,475.75982)"
+       style="fill:#00aced;fill-opacity:1;stroke:none" />
+  </g>
+</svg>

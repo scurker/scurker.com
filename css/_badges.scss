@@ -1,0 +1,48 @@
+%badge-size {
+  height: 32px;
+  width: 32px;
+  background-size: 32px 32px;
+}
+
+.twitter {
+  @extend %badge-size;
+  background-image: url('../images/badges/twitter_badge.png');
+}
+
+.github {
+  @extend %badge-size;
+  background-image: url('../images/badges/github_badge.png');
+}
+
+.flickr {
+  @extend %badge-size;
+  background-image: url('../images/badges/flickr_badge.png');
+}
+
+.rss {
+  @extend %badge-size;
+  background-image: url('../images/badges/rss_badge.png');
+}
+
+@media
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi) {
+
+  .twitter {
+    background-image: url('../images/badges/twitter_badge@2x.png');
+  }
+
+  .github {
+    background-image: url('../images/badges/github_badge@2x.png');
+  }
+
+  .flickr {
+    @extend %background-size;
+    background-image: url('../images/badges/flickr_badge@2x.png');
+  }
+
+  .rss {
+    @extend %background-size;
+    background-image: url('../images/badges/rss_badge@2x.png');
+  }
+}

@@ -13,9 +13,9 @@
    height="250"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.2 r9819"
-   sodipodi:docname="flickr_badge.svg"
-   inkscape:export-filename="/Users/jason/Sites/scurker.com/images/flickr_badge.png"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="rss_badge.svg"
+   inkscape:export-filename="/Users/jason/Sites/scurker.com/images/twitter_badge.png"
    inkscape:export-xdpi="11.52"
    inkscape:export-ydpi="11.52">
   <defs
@@ -28,7 +28,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="38.501193"
+     inkscape:cx="128.14405"
      inkscape:cy="81.060734"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -37,7 +37,7 @@
      inkscape:window-height="752"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="1"
+     inkscape:window-maximized="0"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
@@ -50,7 +50,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -60,29 +60,9 @@
      id="layer1"
      transform="translate(-282.07284,-287.45254)">
     <path
-       style="fill:#cccccc;stroke:none"
-       d="m 528.85856,412.45254 c 0,67.26038 -54.52534,121.78571 -121.78572,121.78571 -67.2604,0 -121.78572,-54.52533 -121.78572,-121.78571 0,-67.2604 54.52533,-121.78571 121.78572,-121.78571 67.26038,0 121.78572,54.52532 121.78572,121.78571 z"
-       id="path3199"
-       inkscape:connector-curvature="0" />
-    <path
-       sodipodi:type="arc"
        style="fill:#ffffff;stroke:none"
-       id="path3374"
-       sodipodi:cx="85"
-       sodipodi:cy="116.42857"
-       sodipodi:rx="40.714287"
-       sodipodi:ry="40.714287"
-       d="m 125.71429,116.42857 a 40.714287,40.714287 0 1 1 -81.428577,0 40.714287,40.714287 0 1 1 81.428577,0 z"
-       transform="matrix(0.86842106,0,0,0.86842106,288.61419,311.34351)" />
-    <path
-       transform="matrix(0.86842106,0,0,0.86842106,377.89991,311.34351)"
-       sodipodi:type="arc"
-       style="fill:#ffffff;stroke:none"
-       id="path3374-9"
-       sodipodi:cx="85"
-       sodipodi:cy="116.42857"
-       sodipodi:rx="40.714287"
-       sodipodi:ry="40.714287"
-       d="m 125.71429,116.42857 a 40.714287,40.714287 0 1 1 -81.428577,0 40.714287,40.714287 0 1 1 81.428577,0 z" />
+       d="M 125 3.2148438 C 57.73961 3.2148438 3.2148438 57.7396 3.2148438 125 C 3.2148438 192.26038 57.7396 246.78516 125 246.78516 C 192.26038 246.78516 246.78516 192.26038 246.78516 125 C 246.78516 57.73961 192.26038 3.2148438 125 3.2148438 z M 64.894531 52.84375 C 137.81743 52.84375 197.15625 112.21998 197.15625 185.15625 L 171.7207 185.15625 C 171.7207 126.198 123.78309 78.214844 64.894531 78.214844 L 64.894531 52.84375 z M 64.863281 97.798828 C 113.00267 97.798828 152.19336 136.9825 152.19336 185.1543 L 126.71875 185.1543 C 126.71824 168.58339 120.27573 152.98489 108.59766 141.3125 C 96.906966 129.61491 81.377801 123.1582 64.863281 123.1582 L 64.863281 97.798828 z M 82.455078 149.87109 C 92.210078 149.87109 100.08984 157.79804 100.08984 167.45703 C 100.08942 177.16747 92.209668 185.00391 82.455078 185.00391 C 72.738138 185.00391 64.84375 177.16705 64.84375 167.45703 C 64.84375 157.79804 72.738138 149.87109 82.455078 149.87109 z "
+       transform="translate(282.07284,287.45254)"
+       id="path3199" />
   </g>
 </svg>
