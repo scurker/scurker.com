@@ -1,8 +1,15 @@
+code {
+  font-size: $baseFontSize;
+  color: #54a847;
+}
+
 pre {
 
   & > code {
     display: block;
     overflow-y: auto;
+    font-size: $baseFontSize - 2px;
+    color: inherit;
   }
 
   .variable,

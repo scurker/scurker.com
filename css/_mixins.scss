@@ -13,6 +13,8 @@ $z-index-1: 100;
 $z-index-2: 200;
 $z-index-3: 300;
 
+$baseFontSize: 16px;
+
 // Fonts
 @mixin sansSerifFont {
   font-family: "Noto Sans", sans-serif;
