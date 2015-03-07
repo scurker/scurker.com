@@ -91,3 +91,26 @@ date {
   width: 25%;
   margin-top: .3em;
 }
+
+@media print {
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: none;
+  }
+
+  .hresume {
+    padding: 1em;
+  }
+
+  .experience {
+    page-break-inside: avoid;
+  }
+
+  h1,
+  h2 {
+    -webkit-print-color-adjust: exact;
+  }
+
+}

@@ -2,7 +2,6 @@
 template: empty.hbs
 title: "Résumé of Jason Wilson"
 ---
-<link rel="stylesheet" href="resume.css"/>
 <div class="hresume">
   <h1 class="fn">Jason Wilson</h1>
   <address class="vcard contact">
@@ -129,4 +128,5 @@ title: "Résumé of Jason Wilson"
   <footer>
     Jason Wilson - jason@scurker.com - 205.613.3126
   </footer>
+  <link rel="stylesheet" href="resume.css"/>
 </div>
