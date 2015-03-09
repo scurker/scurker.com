@@ -98,6 +98,7 @@ after_success:
 - chmod 600 deploy-key
 - mv deploy-key ~/.ssh/id_rsa
 - git remote add deploy ssh://git@example.com/var/git/site.git
+- git push deploy
 ```
 
 Here's where the bulk of the work actually happen. Your private key is copied to the appropriate directory, and the remote origin is created and pushed to.
