@@ -7,7 +7,7 @@ I have been wanting to give a talk on some of the exciting features of ES6 Harmo
 
 It's hard to talk about [all the great features](https://github.com/lukehoban/es6features) that are a part of ES6, but I mainly wanted to touch on the ones that are usable today and the various strategies for implementing ES6 features as part of your code.
 
-Want to know of the short of it? For browsers, it's fairly safe to use many of the ES6 features outlined below with the right polyfill. For node or io, io has better support out of the box while node 0.11.x+ requires specific ES6 feature flags enabled.
+Want to know the short of it? For browsers, it's fairly safe to use many of the ES6 features outlined below with the right polyfill. For node or io, io has better support out of the box while node 0.11.x+ requires specific ES6 feature flags enabled.
 
 <div class="video-wrapper">
   <iframe src="//slides.com/scurker/es6-javascript-and-you/embed?style=light" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
