@@ -3,8 +3,28 @@
   padding: 2em;
   position: relative;
 
-  date {
-    color: rgba(0, 0, 0, .4);
+  date,
+  .year {
+    color: rgba(0, 0, 0, .2);
+  }
+
+  .year {
+    position: relative;
+    &:after {
+      display: block;
+      content: "";
+      border-bottom: 1px dotted rgba(0, 0, 0, .2);
+      position: absolute;
+      width: 100%;
+      top: 50%;
+    }
+  }
+
+  .year span {
+    position: relative;
+    background-color: #fff;
+    padding-right: .5em;
+    z-index: 1;
   }
 }
 
@@ -15,9 +35,16 @@
 }
 
 .posts {
-
   date {
     float: right;
+  }
+}
+
+@media (max-width: 35em) {
+  .posts date {
+    display: block;
+    font-size: .75em;
+    float: none;
   }
 }
 

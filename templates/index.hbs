@@ -1,6 +1,7 @@
 {{!< layout.hbs }}
 <div class="posts">
 {{~#articles}}
+  {{{article-year date}}}
   <h3><a href="{{url}}">{{title}} <date>{{date date "MMM YYYY"}}</date></a></h3>
 {{~/articles}}
 </div>
