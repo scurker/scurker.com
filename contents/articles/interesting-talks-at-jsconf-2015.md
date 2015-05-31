@@ -77,5 +77,5 @@ Let the tooling do the heavy lifting for you! Tools can help you identify some o
 
 In Chrome Canary, you can enable [accessibility developer tools](https://github.com/GoogleChrome/accessibility-developer-tools) that will allow you to run audits on your page to help find those issues.
 
-[A11Y (Ally)](https://www.npmjs.com/package/a11y) - run accessibility audits against a site.
-[Protractor + Accessibility Plugin](http://marcysutton.com/angular-protractor-accessibility-plugin/) - end to end testing accessibility plugin Angular JS
+* [A11Y (Ally)](https://www.npmjs.com/package/a11y) - run accessibility audits against a site.
+* [Protractor + Accessibility Plugin](http://marcysutton.com/angular-protractor-accessibility-plugin/) - end to end testing accessibility plugin Angular JS
