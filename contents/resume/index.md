@@ -18,6 +18,8 @@ title: "Résumé of Jason Wilson"
         <h4>Daxko</h4>
         <date>October 2013 - Present</date>
         <ul>
+          <li>Lead and developed a redesign for one of the most highly traffiked pages in the product with more than
+4 million monthly hits. Performed extensive user research sessions to help make the redesign a success.</li>
           <li>Performed a complete interface overhaul for both accounting and operation applications updating a 6+ year old design.</li>
           <li>Implemented an automatic asset pipeline as part of the build process to reduce the amount of manual work needed to compile assets. This helped to reduce the number of asset requests per page from 40 down to less than 5.</li>
         </ul>
