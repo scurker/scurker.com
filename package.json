@@ -5,17 +5,17 @@
   "description": "The website of Jason Wilson @scurker",
   "private": true,
   "devDependencies": {
-    "grunt-contrib-watch": "~0.5.0"
+    "grunt-contrib-watch": "^0.6.1"
   },
   "dependencies": {
     "grunt": "~0.4.0",
     "grunt-autoprefixer": "^1.0.1",
     "grunt-contrib-cssmin": "~0.6.0",
-    "grunt-contrib-htmlmin": "^0.3.0",
+    "grunt-contrib-htmlmin": "^0.4.0",
     "grunt-image-embed": "^0.3.3",
-    "grunt-sass": "~0.6.0",
+    "grunt-sass": "^1.0.0",
     "grunt-shell": "^1.1.1",
-    "handlebars": "^2.0.0",
+    "handlebars": "^3.0.3",
     "matchdep": "^0.3.0",
     "moment": "^2.8.4",
     "typogr": "^0.6.4",

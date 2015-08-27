@@ -77,6 +77,12 @@
     position: static;
   }
 
+  nav a.name {
+    display: block;
+    width: 100%;
+    transform: translateX(-5%);
+  }
+
   .name h1 {
     width: auto;
     line-height: 64px;
