@@ -92,6 +92,26 @@ date {
   margin-top: .3em;
 }
 
+li.vevent {
+  list-style-type: circle;
+  margin-left: 1.5em;
+}
+
+li.vevent + li.vevent {
+  margin-top: .5em;
+}
+
+li.vevent small {
+  display: block;
+  opacity: .6;
+}
+
+footer {
+  text-align: center;
+  font-size: .85em;
+  margin-top: 1em;
+}
+
 @media print {
 
   body {

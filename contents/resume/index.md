@@ -112,23 +112,19 @@ title: "Résumé of Jason Wilson"
     <ul>
       <li class="vevent">
         Presented, “In Harmony with Javascript - ES6, Javascript, and You”
-        at Birmingham BarCamp, Birmingham, Alabama
-        April 2015
+        <small>at Birmingham BarCamp, Birmingham, Alabama April 2015</small>
       </li>
       <li class="vevent">
         Presented, “HTML5 and Mobile Development”
-        at Samford University, Birmingham, Alabama
-        October 2012
+        <small>at Samford University, Birmingham, Alabama October 2012</small>
       </li>
       <li class="vevent">
         Presented, “Go Mobile, Developing for a Mobile Web”
-        at TechMixer University, Birmingham, Alabama
-        September 2011
+        <small>at TechMixer University, Birmingham, Alabama September 2011</small>
       </li>
       <li class="vevent">
         Presented, “Developing with HTML 5 and CSS 3”
-        at Birmingham BarCamp, Birmingham, Alabama
-        August 2008
+        <small>at Birmingham BarCamp, Birmingham, Alabama August 2008</small>
       </li>
     </ul>
   </section>
