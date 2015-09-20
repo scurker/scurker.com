@@ -1,6 +1,7 @@
 language: node_js
 node_js: '0.10'
 install: echo "skip install"
+sudo: false
 branches:
   only: master
 env:
