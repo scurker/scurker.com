@@ -18,10 +18,9 @@ title: "Résumé of Jason Wilson"
         <h4>Daxko</h4>
         <date>October 2013 - Present</date>
         <ul>
-          <li>Lead and developed a redesign for one of the most highly trafficked pages in the product with more than
-4 million monthly hits. Performed extensive user research sessions to help make the redesign a success.</li>
-          <li>Performed a complete interface overhaul for both accounting and operation applications updating a 6+ year old design.</li>
-          <li>Implemented an automatic asset pipeline as part of the build process to reduce the amount of manual work needed to compile assets. This helped to reduce the number of asset requests per page from 40 down to less than 5.</li>
+          <li>Led and developed a redesign for one of the most highly trafficked pages in the principal SaaS product with more than 4 million monthly hits. Performed extensive user research sessions to help make the redesign a success.</li>
+          <li>Performed a complete interface overhaul for several products updating an existing 6+ year old design and using more modern web standards.</li>
+          <li>Implemented an automatic asset pipeline as part of the front-end build process to reduce the amount of manual work needed to compile assets. Reduced the average number of asset requests per page from 40 down to less than 5.</li>
         </ul>
       </li>
       <li class="experience">
@@ -29,10 +28,10 @@ title: "Résumé of Jason Wilson"
         <h4>Daxko</h4>
         <date>April 2011 - October 2013</date>
         <ul>
-          <li>Lead Interaction Designer for the accounting application.</li>
-          <li>Helped to convert the framework accounting application from a 5 year old version of EXT to the latest version of jQuery.</li>
+          <li>Led interaction design for the Accounting product.</li>
+          <li>Helped to convert the core framework javascript library from a 5 year old version of EXTJS to the latest version of jQuery.</li>
           <li>Helped create a web standards group to standardize specifications across all company applications.</li>
-          <li>Created a new set of icons to be used across company applications.</li>
+          <li>Created a new set of icons to be used across all products.</li>
         </ul>
       </li>
       <li class="experience">
@@ -88,6 +87,7 @@ title: "Résumé of Jason Wilson"
     <ul class="skills">
       <li class="skill">Javascript</li>
       <li class="skill">jQuery</li>
+      <li class="skill">React</li>
       <li class="skill">Prototype</li>
       <li class="skill">CSS2, CSS3</li>
       <li class="skill">LessCSS, Sass</li>
@@ -112,7 +112,7 @@ title: "Résumé of Jason Wilson"
     <ul>
       <li class="vevent">
         Presented, “In Harmony with Javascript - ES6, Javascript, and You”
-        <small>at Birmingham BarCamp, Birmingham, Alabama April 2015</small>
+        <small>at Birmingham BarCamp, Birmingham, Alabama April 2015 [http://scurker.com/in-harmony-with-javascript/]</small>
       </li>
       <li class="vevent">
         Presented, “HTML5 and Mobile Development”
