@@ -7,7 +7,7 @@ title: "Résumé of Jason Wilson"
   <address class="vcard contact">
     <div><a class="email" href="mailto:jason@scurker.com">jason@scurker.com</a></div>
     <div class="tel">205.613.3126</div>
-    <div><a class="url" href="http://twitter.com/scurker">@scurker</a> on twitter</div>
+    <div><a class="url" href="https://twitter.com/scurker">@scurker</a> on Twitter • <a class="url" href="https://github.com/scurker">scurker</a> on GitHub</div>
     <div><a class="url" href="http://scurker.com">http://scurker.com</a></div>
   </address>
   <section>
@@ -19,7 +19,8 @@ title: "Résumé of Jason Wilson"
         <date>October 2013 - Present</date>
         <ul>
           <li>Led and developed a redesign for one of the most highly trafficked pages in the principal SaaS product with more than 4 million monthly hits. Performed extensive user research sessions to help make the redesign a success.</li>
-          <li>Performed a complete interface overhaul for several products updating an existing 6+ year old design and using more modern web standards.</li>
+          <li>Performed a complete interface overhaul for several products updating an existing 6+ year old design and centralizing the look and feel under a more common UI framework.</li>
+          <li>Declared war against silverlight - updating many commonly used components to more open HTML5 components with progressive fallbacks to flash when necessary.</li>
           <li>Implemented an automatic asset pipeline as part of the front-end build process to reduce the amount of manual work needed to compile assets. Reduced the average number of asset requests per page from 40 down to less than 5.</li>
         </ul>
       </li>
