@@ -1,3 +1,5 @@
+'use strict';
+
 var currentYear;
 
 module.exports = function(date) {
