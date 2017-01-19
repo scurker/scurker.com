@@ -5,7 +5,7 @@
   "description": "The website of Jason Wilson @scurker",
   "private": true,
   "devDependencies": {
-    "grunt-contrib-watch": "^0.6.1",
+    "grunt-contrib-watch": "^0.6.1"
   },
   "dependencies": {
     "grunt": "^1.0.0",
