@@ -37,12 +37,10 @@
   }
 
   .flickr {
-    @extend %background-size;
     background-image: url('../images/badges/flickr_badge@2x.png');
   }
 
   .rss {
-    @extend %background-size;
     background-image: url('../images/badges/rss_badge@2x.png');
   }
 }
