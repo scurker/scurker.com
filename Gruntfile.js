@@ -83,7 +83,7 @@ module.exports = function(grunt) {
 
     shell: {
       wintersmith: {
-        command: 'wintersmith build'
+        command: './node_modules/.bin/wintersmith build'
       }
     }
 

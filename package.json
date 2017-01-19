@@ -19,7 +19,8 @@
     "matchdep": "^0.3.0",
     "moment": "^2.8.4",
     "typogr": "^0.6.4",
-    "underscore": "^1.7.0"
+    "underscore": "^1.7.0",
+    "wintersmith": "^2.3.6"
   },
   "repository": {
     "type": "git",
