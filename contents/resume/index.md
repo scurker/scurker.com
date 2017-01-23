@@ -12,11 +12,20 @@ title: "Résumé of Jason Wilson"
   </address>
   <section>
     <h2>Experience</h2>
-    <ul>
+    <ul>      
+      <li class="experience">
+        <h3>UX Engineer</h3>
+        <h4>Daxko</h4>
+        <date>February 2016 - Present</date>
+        <ul>
+          <li>Developed a hybrid mobile app in React/Phonegap reaching 180k+ monthly users in less than 1 year.</li>
+          <li>Established and led an internal front-end guild to help mentor and guide other developers with front-end skills.</li>
+        </ul>
+      </li>
       <li class="experience">
         <h3>Interaction Designer</h3>
         <h4>Daxko</h4>
-        <date>October 2013 - Present</date>
+        <date>October 2013 - February 2016</date>
         <ul>
           <li>Led and developed a redesign for one of the most highly trafficked pages in the principal SaaS product with more than 4 million monthly hits. Performed extensive user research sessions to help make the redesign a success.</li>
           <li>Performed a complete interface overhaul for several products updating an existing 6+ year old design and centralizing the look and feel under a more common UI framework.</li>
