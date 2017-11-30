@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-@import "css/mixins";
+@import "mixins";
 
 *,
 *:after,
@@ -49,8 +49,8 @@ h6 {
   font-weight: 300;
 }
 
-@import "css/badges";
-@import "css/nav";
-@import "css/content";
-@import "css/responsive";
-@import "css/code";
+@import "badges";
+@import "nav";
+@import "content";
+@import "responsive";
+@import "code";

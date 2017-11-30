@@ -1,0 +1,6 @@
+build
+
+# Old JS project files
+site/projects/asteroids
+site/projects/jclock
+site/projects/particles

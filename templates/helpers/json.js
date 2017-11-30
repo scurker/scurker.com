@@ -1,5 +1,3 @@
-'use strict';
-
 module.exports = function(context) {
   var cache = [];
   var value = JSON.stringify(context, function(key, value) {
@@ -15,6 +13,5 @@ module.exports = function(context) {
   }, 2);
   cache = null; // Enable garbage collection
 
-  console.log(value);
   return value;
 };

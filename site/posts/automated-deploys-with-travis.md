@@ -68,7 +68,7 @@ From here, you'll want to to go to [travis-ci.org](https://travis-ci.org/), auth
 
 From here, you'll need to make a few additions to your `.travis.yml` file, and I'll include an example, but you can of course always view the [latest version](https://github.com/scurker/scurker.com/blob/master/.travis.yml) on Github.
 
-```haml
+```yaml
 language: node_js
 node_js: '0.10'
 install: echo "skip install"
@@ -87,13 +87,13 @@ before_install:
 
 You'll need to change things accordingly to your needs, but here's a couple of tips:
 
-```haml
+```yaml
 install: echo "skip install"
 ```
 
 I'm essentially skipping this step because I'm only using Travis to deploy, but theoretically, you could use this to run tests before the deployment actually runs.
 
-```haml
+```yaml
 after_success:
 - chmod 600 deploy-key
 - mv deploy-key ~/.ssh/id_rsa

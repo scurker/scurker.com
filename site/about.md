@@ -1,5 +1,5 @@
 ---
-template: page.hbs
+layout: page.hbs
 title: "About"
 ---
 

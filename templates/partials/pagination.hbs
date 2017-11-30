@@ -1,10 +1,8 @@
-{{~#if prev}}
 <div class="pagination">
-  {{~#if prev}}
-  <a class="prev" href="{{prev.url}}">{{prev.title}}</a>
+  {{~#if previous.title}}
+  <a class="prev" href="{{previous.path}}">{{previous.title}}</a>
   {{~/if}}
   {{~#if next}}
-  <a class="next" href="{{next.url}}">{{next.title}}</a>
+  <a class="next" href="{{next.path}}">{{next.title}}</a>
   {{~/if}}
 </div>
-{{~/if}}

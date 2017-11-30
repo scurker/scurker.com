@@ -2,9 +2,11 @@
 thumbs.db
 node_modules
 .sass-cache
+.sublime-project
+.sublime-workspace
 
 # static folder
 build/
 
 # drafts
-contents/articles/*.draft.md
+site/posts/*.draft.md

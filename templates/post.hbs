@@ -1,6 +1,8 @@
-{{!< layout.hbs }}
+---
+layout: layout.hbs
+---
 <h2 class="title">{{title}}</h2>
-<date>{{date page.date "D MMM YYYY"}}</date>
+<date>{{date date "D MMM YYYY"}}</date>
 <section class="post">
   {{{contents}}}
 </section>
@@ -12,7 +14,7 @@
 {{> pagination}}
 
 {{! Only have disqus show up when we're live }}
-{{~#is env.mode "build"}}
+{{~#is env "production"}}
 <section class="comments">
   {{> comments}}
 </section>
