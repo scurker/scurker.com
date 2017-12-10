@@ -1,6 +1,6 @@
 ---
-layout: empty.hbs
-title: "Asteroids"
+layout: empty
+title: Asteroids
 ---
 
 <link rel="stylesheet" href="asteroids.css"/>

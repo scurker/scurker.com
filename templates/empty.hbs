@@ -6,7 +6,10 @@
   <title>{{title}}</title>
 </head>
 <body>
-{{{contents}}}
+  {{{contents}}}
+  {{! Only use analytics when we're live }}
+  {{~#is env "production"}}
+    {{#> analytics}}{{/analytics}}
+  {{~/is}}
 </body>
-{{> analytics}}
 </html>

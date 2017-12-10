@@ -1,5 +1,5 @@
 ---
-layout: empty.hbs
+layout: empty
 title: "Résumé of Jason Wilson"
 ---
 <div class="hresume">
@@ -8,7 +8,7 @@ title: "Résumé of Jason Wilson"
     <div><a class="email" href="mailto:jason@scurker.com">jason@scurker.com</a></div>
     <div class="tel">205.613.3126</div>
     <div><a class="url" href="https://twitter.com/scurker">@scurker</a> on Twitter • <a class="url" href="https://github.com/scurker">scurker</a> on GitHub</div>
-    <div><a class="url" href="http://scurker.com">http://scurker.com</a></div>
+    <div><a class="url" href="https://scurker.com">https://scurker.com</a></div>
   </address>
   <section>
     <h2>Experience</h2>
@@ -20,6 +20,24 @@ title: "Résumé of Jason Wilson"
         <ul>
           <li>Developed a hybrid mobile app in React/Phonegap reaching 180k+ monthly users in less than 1 year.</li>
           <li>Established and led an internal front-end guild to help mentor and guide other developers with front-end skills.</li>
+        </ul>
+      </li>
+      <li class="experience">
+        <h3>Front End Engineer</h3>
+        <h4>Education Advisory Board</h4>
+        <date>April 2017 - Present</date>
+        <ul>
+          <li>Intense focus on accessibility, working as part of a larger team to make student facing portions of Campus (SaaS product serving higher education) WCAG 2.0 compliant.</li>
+          <li>Modernized front-end build tooling utilizing Webpack and Babel, allowing front-end development to be built using Preact and Typescript instead of HTML + jQuery.</li>
+        </ul>
+      </li>
+      <li class="experience">
+        <h3>User Experience Engineer</h3>
+        <h4>Daxko</h4>
+        <date>February 2016 - April 2017</date>
+        <ul>
+          <li>Developed and guided the launch of Daxko Mobile, a new mobile application built using Cordova and React serving members of YMCAs and JCCs to over 200 different clients.</li>
+          <li>Implemented a build process for the mobile application to ensure that the codebase was the same for all clients across multiple platforms (Android, iOS).</li>
         </ul>
       </li>
       <li class="experience">
@@ -95,26 +113,27 @@ title: "Résumé of Jason Wilson"
   <section class="skills">
     <h2>Tools &amp; Abilities</h2>
     <ul class="skills">
-      <li class="skill">Javascript</li>
+      <li class="skill">Javascript (ES5, ES6)</li>
+      <li class="skill">Typescript</li>
       <li class="skill">jQuery</li>
-      <li class="skill">React</li>
-      <li class="skill">Prototype</li>
+      <li class="skill">Preact, React</li>
       <li class="skill">CSS2, CSS3</li>
-      <li class="skill">LessCSS, Sass</li>
+      <li class="skill">Less, Sass, PostCSS</li>
       <li class="skill">PHP</li>
       <li class="skill">Java</li>
       <li class="skill">C#/.NET</li>
-      <li class="skill">Subversion</li>
       <li class="skill">git</li>
-      <li class="skill">CVS</li>
       <li class="skill">HTML, HTML5</li>
       <li class="skill">Wordpress</li>
-      <li class="skill">Drupal</li>
-      <li class="skill">nodejs</li>
+      <li class="skill">node</li>
+      <li class="skill">AWS</li>
       <li class="skill">MySQL</li>
-      <li class="skill">Oracle</li>
+      <li class="skill">Postgres</li>
       <li class="skill">SQL Server</li>
-      <li class="skill">Sqlite</li>
+      <li class="skill">Webpack</li>
+      <li class="skill">Babel</li>
+      <li class="skill">D3</li>
+      <li class="skill">Phonegap/Cordova</li>
     </ul>
   </section>
   <section class="awards">
@@ -122,7 +141,7 @@ title: "Résumé of Jason Wilson"
     <ul>
       <li class="vevent">
         Presented, “In Harmony with Javascript - ES6, Javascript, and You”
-        <small>at Birmingham BarCamp, Birmingham, Alabama April 2015 [http://scurker.com/in-harmony-with-javascript/]</small>
+        <small>at Birmingham BarCamp, Birmingham, Alabama April 2015 [https://scurker.com/in-harmony-with-javascript/]</small>
       </li>
       <li class="vevent">
         Presented, “HTML5 and Mobile Development”

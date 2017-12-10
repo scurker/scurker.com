@@ -1,3 +1,3 @@
 ---
-layout: feed.hbs
+layout: feed
 ---

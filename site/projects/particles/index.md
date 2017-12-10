@@ -1,5 +1,5 @@
 ---
-layout: empty.hbs
+layout: empty
 title: "HTML5 Particle Generator"
 ---
 

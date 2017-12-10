@@ -1,10 +1,10 @@
 ---
-layout: page.hbs
+layout: page
 title: "About"
 ---
 
-My name is Jason Wilson and I'm a front-end developer who loves thinking about the web. I live in <em>Birmingham, Alabama</em>. I have been building for the web unprofessionally with my first website in 1998, then eventually moving into the professional world in 2006.
+Jason Wilson is a front end developer who loves thinking about the web and crafting useful user experiences. Located in <em>Birmingham, Alabama</em> he has been building for the web unprofessionally with his first website in 1998, then eventually moving into the professional world in 2006.
 
-I currently work at <a href="http://daxko.com">Daxko</a> as an Interaction Designer as part of the design team. I'm not currently looking for other work, but feel free to peruse my <a href="/resume">résumé</a>.
+Currently employed at <a href="https://www.eab.com/">Education Advisory Board</a> as a Front End Engineer. He is not currently looking for other work, but feel free to peruse his <a href="/resume">résumé</a>.
 
-You can find me in many places across the web, typically under the pseudonym scurker. Feel free to contact me on <a href="http://twitter.com/scurker">twitter</a> or via <a href="mailto:jason@scurker.com">email</a>.
+You can find him in many places across the web, typically under the pseudonym scurker. Feel free to contact me on <a href="http://twitter.com/scurker">twitter</a> or via <a href="mailto:jason@scurker.com">email</a>.

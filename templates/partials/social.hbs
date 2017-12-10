@@ -15,3 +15,6 @@ window.twttr = (function (d, s, id) {
   return window.twttr || (t = { _e: [], ready: function (f) { t._e.push(f) } });
 }(document, "script", "twitter-wjs"));
 </script>
+{{~#contentFor "header"}}
+  <link rel="preload" href="//platform.twitter.com/widgets.js" as="script" crossorigin>
+{{~/contentFor}}
