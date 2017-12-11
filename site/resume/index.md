@@ -12,16 +12,7 @@ title: "Résumé of Jason Wilson"
   </address>
   <section>
     <h2>Experience</h2>
-    <ul>      
-      <li class="experience">
-        <h3>UX Engineer</h3>
-        <h4>Daxko</h4>
-        <date>February 2016 - Present</date>
-        <ul>
-          <li>Developed a hybrid mobile app in React/Phonegap reaching 180k+ monthly users in less than 1 year.</li>
-          <li>Established and led an internal front-end guild to help mentor and guide other developers with front-end skills.</li>
-        </ul>
-      </li>
+    <ul>
       <li class="experience">
         <h3>Front End Engineer</h3>
         <h4>Education Advisory Board</h4>
