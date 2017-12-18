@@ -7,4 +7,4 @@ Jason Wilson is a front end developer who loves thinking about the web and craft
 
 Currently employed at <a href="https://www.eab.com/">Education Advisory Board</a> as a Front End Engineer. He is not currently looking for other work, but feel free to peruse his <a href="/resume">résumé</a>.
 
-You can find him in many places across the web, typically under the pseudonym scurker. Feel free to contact me on <a href="http://twitter.com/scurker">twitter</a> or via <a href="mailto:jason@scurker.com">email</a>.
+You can find him in many places across the web, typically under the pseudonym scurker. Contact him on <a href="http://twitter.com/scurker">twitter</a> or via <a href="mailto:jason@scurker.com">email</a>.
