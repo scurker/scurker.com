@@ -34,7 +34,7 @@
     "metalsmith-collections": "^0.9.0",
     "metalsmith-drafts": "0.0.1",
     "metalsmith-markdown": "^0.2.1",
-    "metalsmith-permalinks": "^0.5.0",
+    "metalsmith-perma": "^1.0.0-alpha1",
     "minimatch": "^3.0.0",
     "moment": "^2.19.3",
     "node-sass": "^4.7.2",
