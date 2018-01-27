@@ -19,7 +19,7 @@ title: "Résumé of Jason Wilson"
         <date>April 2017 - Present</date>
         <ul>
           <li>Intense focus on accessibility, working as part of a larger team to make student facing portions of Campus (SaaS product serving higher education) WCAG 2.0 compliant.</li>
-          <li>Modernized front-end build tooling utilizing Webpack and Babel, allowing front-end development to be built using Preact and Typescript instead of HTML + jQuery.</li>
+          <li>Modernized front-end build tooling in a legacy Ruby on Rails application utilizing Webpack and Babel, allowing front-end development to be built using Preact and Typescript instead of HTML + jQuery.</li>
         </ul>
       </li>
       <li class="experience">
