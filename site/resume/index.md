@@ -40,6 +40,7 @@ title: "Résumé of Jason Wilson"
           <li>Performed a complete interface overhaul for several products updating an existing 6+ year old design and centralizing the look and feel under a more common UI framework.</li>
           <li>Declared war against silverlight - updating many commonly used components to more open HTML5 components with progressive fallbacks to flash when necessary.</li>
           <li>Implemented an automatic asset pipeline as part of the front-end build process to reduce the amount of manual work needed to compile assets. Reduced the average number of asset requests per page from 40 down to less than 5.</li>
+          <li>Championed and developed a new design system with components, documentation, and accessibility to unify products. Worked with designers and other developers to ensure the needs of the users and the product were built directly into the system.</li>
         </ul>
       </li>
       <li class="experience">
