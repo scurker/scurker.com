@@ -18,8 +18,8 @@ title: "Résumé of Jason Wilson"
         <h4>Education Advisory Board</h4>
         <date>April 2017 - Present</date>
         <ul>
-          <li>Intense focus on accessibility, working as part of a larger team to make student facing portions of Campus (SaaS product serving higher education) WCAG 2.0 compliant.</li>
-          <li>Modernized front-end build tooling in a legacy Ruby on Rails application utilizing Webpack and Babel, allowing front-end development to be built using Preact and Typescript instead of HTML + jQuery.</li>
+          <li>Intense focus on accessibility, working as part of a larger team to remediate key areas of Campus (SaaS product serving higher education).</li>
+          <li>Modernized front-end build tooling in a legacy Ruby on Rails application utilizing Webpack and Babel, allowing for front-end development to use Preact and Typescript instead of HTML + jQuery.</li>
         </ul>
       </li>
       <li class="experience">
