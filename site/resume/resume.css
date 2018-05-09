@@ -53,19 +53,24 @@ section > ul {
 
 li.experience {
   margin-top: 2em;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.experience ul {
+  margin-top: .6em;
 }
 
 h3, h4 {
   margin: 0;
-  float: left;
   font-size: 1.2em;
   font-weight: 600;
+  display: inline-block;
 }
 
 h4 {
   font-weight: 400;
   opacity: .4;
-  display: inline-block;
   padding-left: .3em;
 }
 
@@ -75,10 +80,13 @@ h4 {
 
 date {
   display: block;
-  clear: both;
-  padding: .5em 0;
   font-style: italic;
-  font-size: .9em;
+}
+
+.experience date {
+  align-self: flex-end;
+  flex: 1;
+  text-align: right;
 }
 
 .skills {
