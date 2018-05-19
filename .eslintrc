@@ -10,7 +10,7 @@
       "experimentalObjectRestSpread": true
     }
   },
-  "extends": ["eslint:recommended"],
+  "extends": ["@scurker"],
   "rules": {
     "no-console": "off"
   }
