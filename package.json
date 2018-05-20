@@ -16,17 +16,17 @@
     "preview": "npm run build && http-server ./build"
   },
   "devDependencies": {
-    "cheerio": "^1.0.0-rc.2",
+    "@scurker/eslint-config": "^1.1.2",
     "eslint": "^4.19.1",
     "http-server": "^0.11.1"
   },
   "dependencies": {
-    "@scurker/eslint-config": "^1.1.2",
     "autoprefixer": "^8.5.0",
     "babel": "^6.23.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "babel-register": "^6.26.0",
+    "cheerio": "^1.0.0-rc.2",
     "cssnano": "^3.10.0",
     "glob": "^7.0.3",
     "handlebars": "^4.0.11",
