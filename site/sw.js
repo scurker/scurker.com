@@ -14,7 +14,8 @@ const cachedAssets = [
   '/assets/images/profile.png',
   '/assets/fonts/NotoSans-Regular.woff2',
   '/assets/fonts/NotoSans-Bold.woff2',
-  '/assets/global.css'
+  '/assets/global.css',
+  '/pages.json'
 ];
 
 addEventListener('install', event => {
@@ -37,13 +38,19 @@ addEventListener('activate', () => {
 });
 
 addEventListener('fetch', event => {
+  let request = event.request;
+
+  if(request.method !== 'GET' || request.url.indexOf('?') !== -1) {
+    return;
+  }
+
   event.respondWith(networkFirst(event.request));
 });
 
 function networkFirst(request) {
   return fetch(request).then(response => {
     if(response && (response.ok || response.status === 302)) {
-      caches.open(cacheVersion).then(function(cache) {
+      caches.open(cachedPages).then(function(cache) {
         cache.put(request, response.clone());
       });
     }

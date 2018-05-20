@@ -114,7 +114,6 @@ footer {
 }
 
 .video-wrapper {
-
   position: relative;
   padding: 0;
   padding-bottom: 56.25%;
@@ -131,4 +130,26 @@ footer {
     height: 100%;
   }
 
+}
+
+.anchor-link:before {
+  position: absolute;
+  content: '#';
+  display: none;
+  transform: translateX(-150%);
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  &[id] {
+    padding-left: 2rem;
+    transform: translateX(-2rem);
+  }
+
+  &:hover .anchor-link:before {
+    display: block;
+  }
 }
