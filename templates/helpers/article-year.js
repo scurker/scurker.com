@@ -6,4 +6,4 @@ module.exports = function(date) {
     currentYear = year;
     return '<h3 class="year"><span>' + year + '</span></h3>';
   }
-}
+};
