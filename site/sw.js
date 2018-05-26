@@ -24,7 +24,8 @@ addEventListener('install', event => {
       caches.open(pageCache).then(pagesCache => pagesCache.addAll(cachedPages));
       return cache.addAll(cachedAssets);
     })
-  ).then(() => self.skipWaiting());
+    .then(() => self.skipWaiting())
+  );
 });
 
 addEventListener('activate', () => {
@@ -52,7 +53,7 @@ function networkFirst(request) {
     let res = response.clone();
     if(res && (res.ok || res.status === 302)) {
       caches.open(cachedPages).then(function(cache) {
-        cache.put(request, response);
+        cache.put(request, res);
       });
     }
     return response;
