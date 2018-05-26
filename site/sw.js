@@ -49,9 +49,10 @@ addEventListener('fetch', event => {
 
 function networkFirst(request) {
   return fetch(request).then(response => {
-    if(response && (response.ok || response.status === 302)) {
+    let res = response.clone();
+    if(res && (res.ok || res.status === 302)) {
       caches.open(cachedPages).then(function(cache) {
-        cache.put(request, response.clone());
+        cache.put(request, response);
       });
     }
     return response;
