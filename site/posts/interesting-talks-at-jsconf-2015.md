@@ -3,7 +3,7 @@ title: "Interesting talks at JSConf 2015"
 date: 2015-05-31
 ---
 
-This is my second year of being able to attend JSConf and feel fortunate to be able to listen and interact with so many awesome people in the community. This is mostly a brain dump of some of the topics I found interesting at JSConf, but obviously isn't every talk or speaker since I couldn't attend every session. Hopefully, some others can benefit from some of the knowledge I was gain - or find some interesting people to follow in the community.
+This is my second year of being able to attend JSConf and feel fortunate to be able to listen and interact with so many awesome people in the community. This is mostly a brain dump of some of the topics I found interesting at JSConf, but obviously isn't every talk or speaker since I couldn't attend every session. Hopefully, some others can benefit from some of the knowledge I gained - or find some interesting people to follow in the community.
 
 ## JS Accessibility and JS: side-by-side - [Felipe de Albuquerque](https://twitter.com/felipedeolinda)
 
