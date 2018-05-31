@@ -13,5 +13,9 @@
   "extends": ["@scurker"],
   "rules": {
     "no-console": "off"
+  },
+  "globals": {
+    "CACHE_VERSION": true,
+    "STATIC_ASSETS": true
   }
 }

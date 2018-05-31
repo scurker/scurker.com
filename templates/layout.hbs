@@ -8,6 +8,7 @@
   <link rel="preload" href="/assets/fonts/NotoSans-Regular.woff2" as="font" type="font/woff2">
   <link rel="preload" href="/assets/images/profile.png" as="image">
   <link rel="preload" href="/assets/global.css" as="style">
+  <link rel="preload" href="/assets/global.js" as="script">
   <script>
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('/sw.js');
@@ -16,7 +17,7 @@
   {{~#block "header"}}{{/block}}
   <title>{{title}}{{#if title}} — {{/if}}{{name}}</title>
 </head>
-<body>
+<body{{#if bodyClass}} class="{{bodyClass}}"{{/if}}>
   <nav role="navigation">
     <a class="name" href="/">
       <img src="/assets/images/profile.png" alt="Jason's Profile Image" />
@@ -53,5 +54,6 @@
     {{> analytics }}
   {{~/is}}
   {{~#block "footer"}}{{/block}}
+  <script type="text/javascript" src="/assets/global.js"></script>
 </body>
 </html>

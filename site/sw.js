@@ -1,22 +1,18 @@
 'use strict';
 
-const cacheVersion = 'v1';
+const cacheVersion = CACHE_VERSION || 'v1';
 const pageCache = `${cacheVersion}-pages`;
 const assetCache = `${cacheVersion}-assets`;
 
+// Pre-cache pages
 const cachedPages = [
   '/',
   '/about',
   '/offline'
 ];
 
-const cachedAssets = [
-  '/assets/images/profile.png',
-  '/assets/fonts/NotoSans-Regular.woff2',
-  '/assets/fonts/NotoSans-Bold.woff2',
-  '/assets/global.css',
-  '/pages.json'
-];
+// Pre-cache assets (generated from site/assets/*)
+const cachedAssets = STATIC_ASSETS;
 
 addEventListener('install', event => {
   event.waitUntil(
@@ -28,8 +24,8 @@ addEventListener('install', event => {
   );
 });
 
+// On activate, remove any old caches
 addEventListener('activate', () => {
-  // clean up any old caches
   return caches.keys().then(keys => {
     return Promise.all(keys
       .filter(key => key.indexOf(cacheVersion) !== 0)

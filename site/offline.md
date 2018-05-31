@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Offline"
+bodyClass: "offline-page"
 ---
 
 ### You are offline.
