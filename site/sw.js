@@ -11,7 +11,7 @@ const cachedPages = [
   '/offline'
 ];
 
-// Pre-cache assets (generated from site/assets/*)
+// Pre-cache assets (generated from build/assets/*)
 const cachedAssets = STATIC_ASSETS;
 
 addEventListener('install', event => {
