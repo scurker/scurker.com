@@ -48,7 +48,8 @@ function networkFirst(request) {
   return fetch(request).then(response => {
     let res = response.clone();
     if(res && (res.ok || res.status === 302)) {
-      caches.open(pageCache).then(function(cache) {
+      let cache = res.headers.get('content-type').indexOf('text/html') !== -1 ? pageCache : assetCache;
+      caches.open(cache).then(function(cache) {
         cache.put(request, res);
       });
     }
