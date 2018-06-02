@@ -38,6 +38,7 @@ addEventListener('fetch', event => {
   let request = event.request;
 
   if(request.method !== 'GET' || request.url.indexOf('?') !== -1) {
+    event.respondWith(fetch(request).catch(() => caches.match('/offline')));
     return;
   }
 
@@ -48,8 +49,8 @@ function networkFirst(request) {
   return fetch(request).then(response => {
     let res = response.clone();
     if(res && (res.ok || res.status === 302)) {
-      let cache = res.headers.get('content-type').indexOf('text/html') !== -1 ? pageCache : assetCache;
-      caches.open(cache).then(function(cache) {
+      let cacheName = res.headers.get('content-type').indexOf('text/html') !== -1 ? pageCache : assetCache;
+      caches.open(cacheName).then(cache => {
         cache.put(request, res);
       });
     }
