@@ -48,7 +48,7 @@ function networkFirst(request) {
   return fetch(request).then(response => {
     let res = response.clone();
     if(res && (res.ok || res.status === 302)) {
-      caches.open(cachedPages).then(function(cache) {
+      caches.open(pageCache).then(function(cache) {
         cache.put(request, res);
       });
     }
