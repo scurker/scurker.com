@@ -1,10 +1,10 @@
 const isOfflinePage = document.body.classList.contains('offline-page');
 
 if (window.caches && isOfflinePage) {
-
   const cacheRegex = /-pages$/;
   const createElement = document.createElement.bind(document);
   const createTextNode = document.createTextNode.bind(document);
+  const appendChild = (el, child) => el.appendChild(child);
   const createPostListItem = function(post) {
     let listItem = createElement('li')
       , anchor = createElement('a')
@@ -12,10 +12,10 @@ if (window.caches && isOfflinePage) {
       , title = createTextNode(post.title)
       , dateText = createTextNode(post.dateString);
     anchor.setAttribute('href', post.path);
-    date.appendChild(dateText);
-    anchor.appendChild(title);
-    anchor.appendChild(date);
-    listItem.appendChild(anchor);
+    appendChild(date, dateText);
+    appendChild(anchor, title);
+    appendChild(anchor, date);
+    appendChild(listItem, anchor);
     return listItem;
   };
 
@@ -37,9 +37,9 @@ if (window.caches && isOfflinePage) {
         // display offline posts on the page
         let list = createElement('ul');
         matchedPosts.forEach(post => {
-          list.appendChild(createPostListItem(post));
+          appendChild(list, createPostListItem(post));
         });
-        offlineContainer.appendChild(list);
+        appendChild(offlineContainer, list);
       } else {
         offlineContainer.parentNode.remove(offlineContainer);
       }
