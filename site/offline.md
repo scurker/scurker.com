@@ -10,5 +10,6 @@ It looks like you may have tried to visit a page that we haven't saved for offli
 
 <div class="offline-posts">
   But that's okay, we have a few things that you can look at.
+  <h3>Available Offline Posts</h3>
   <ul class="posts"></ul>
 </div>
