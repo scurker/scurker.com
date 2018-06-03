@@ -35,7 +35,7 @@ if (window.caches && isOfflinePage) {
       let offlineContainer = document.querySelector('.offline-posts');
       if(matchedPosts.length) {
         // display offline posts on the page
-        let list = createElement('ul');
+        let list = document.querySelector('.posts');
         matchedPosts.forEach(post => {
           appendChild(list, createPostListItem(post));
         });

@@ -9,22 +9,15 @@
   }
 
   .year {
-    position: relative;
+    display: flex;
     &:after {
       display: block;
       content: "";
       border-bottom: 1px dotted rgba(0, 0, 0, .2);
-      position: absolute;
-      width: 100%;
-      top: 50%;
+      margin-left: .6em;
+      flex-grow: 1;
+      transform: translateY(-50%);
     }
-  }
-
-  .year span {
-    position: relative;
-    background-color: #fff;
-    padding-right: .5em;
-    z-index: 1;
   }
 }
 
@@ -35,16 +28,40 @@
 }
 
 .posts {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    display: block;
+    font-size: 1.17em;
+    margin: 1em 0;
+  }
+
+  li a {
+    display: flex;
+  }
+
   date {
-    float: right;
+    text-align: right;
+    flex-grow: 1;
+    white-space: nowrap;
   }
 }
 
 @media (max-width: 35em) {
-  .posts date {
-    display: block;
-    font-size: .75em;
-    float: none;
+  .posts {
+
+    li a {
+      display: block;
+    }
+
+    date {
+      display: block;
+      font-size: .75em;
+      text-align: left;
+    }
+
   }
 }
 

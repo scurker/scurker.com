@@ -1,7 +1,7 @@
 {{!< layout }}
-<div class="posts">
+<ul class="posts">
 {{~#posts}}
   {{{article-year date}}}
-  <h3><a href="{{path}}">{{title}} <date>{{date date "MMM YYYY"}}</date></a></h3>
+  <li><a href="{{path}}">{{title}} <date>{{date date "MMM YYYY"}}</date></a></li>
 {{~/posts}}
-</div>
+</ul>
