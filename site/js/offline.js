@@ -1,14 +1,47 @@
 const isOfflinePage = document.body.classList.contains('offline-page');
 
 if (window.caches && isOfflinePage) {
-  const cacheRegex = '/-pages$/';
 
-  caches.keys
+  const cacheRegex = /-pages$/;
+  const createElement = document.createElement.bind(document);
+  const createTextNode = document.createTextNode.bind(document);
+  const createPostListItem = function(post) {
+    let listItem = createElement('li')
+      , anchor = createElement('a')
+      , date = createElement('date')
+      , title = createTextNode(post.title)
+      , dateText = createTextNode(post.dateString);
+    anchor.setAttribute('href', post.path);
+    date.appendChild(dateText);
+    anchor.appendChild(title);
+    anchor.appendChild(date);
+    listItem.appendChild(anchor);
+    return listItem;
+  };
+
+  caches.keys()
     .then(keys => {
       let targetCache = keys.filter(cacheName => cacheRegex.test(cacheName));
-      return [caches.open(targetCache).keys()];
+      return Promise.all([
+        caches.open(targetCache).then(c => c.keys()),
+        fetch('/pages.json').then(res => res.json())
+      ]);
     })
-    .then(requests => {
+    .then(([ requests, pages ]) => {
       // here we'll match the requests in the cache against known posts
+      let posts = pages.filter(({ type }) => type === 'post')
+        , matchedPosts = posts.filter(post => requests.find(req => new URL(req.url).pathname.indexOf(post.path) !== -1));
+
+      let offlineContainer = document.querySelector('.offline-posts');
+      if(matchedPosts.length) {
+        // display offline posts on the page
+        let list = createElement('ul');
+        matchedPosts.forEach(post => {
+          list.appendChild(createPostListItem(post));
+        });
+        offlineContainer.appendChild(list);
+      } else {
+        offlineContainer.parentNode.remove(offlineContainer);
+      }
     });
 }
