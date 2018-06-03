@@ -41,7 +41,7 @@ if (window.caches && isOfflinePage) {
         });
         appendChild(offlineContainer, list);
       } else {
-        offlineContainer.parentNode.remove(offlineContainer);
+        offlineContainer.remove();
       }
     });
 }
