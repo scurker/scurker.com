@@ -34,6 +34,7 @@ if (window.caches && isOfflinePage) {
 
       let offlineContainer = document.querySelector('.offline-posts');
       if(matchedPosts.length) {
+        matchedPosts = matchedPosts.sort((a, b) => new Date(a.date) < new Date(b.date));
         // display offline posts on the page
         let list = document.querySelector('.posts');
         matchedPosts.forEach(post => {
