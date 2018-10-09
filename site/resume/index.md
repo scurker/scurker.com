@@ -18,7 +18,7 @@ title: "Résumé of Jason Wilson"
         <h4>Education Advisory Board</h4>
         <date>April 2017 - Present</date>
         <ul>
-          <li>Intense focus on accessibility, working as part of a larger team to remediate key areas of Campus (SaaS product serving higher education).</li>
+          <li>Intense focus on accessibility, working as part of a larger team to remediate key areas of Campus, a SaaS product serving higher education.</li>
           <li>Modernized front-end build tooling in a legacy Ruby on Rails application utilizing Webpack and Babel, allowing for front-end development to use Preact and Typescript instead of HTML + jQuery.</li>
         </ul>
       </li>
@@ -48,7 +48,7 @@ title: "Résumé of Jason Wilson"
         <h4>Daxko</h4>
         <date>April 2011 - October 2013</date>
         <ul>
-          <li>Led interaction design for the Accounting product.</li>
+          <li>Led interaction design for an Accounting SaaS product serving member based non-profits.</li>
           <li>Helped to convert the core framework javascript library from a 5 year old version of EXTJS to the latest version of jQuery.</li>
           <li>Helped create a web standards group to standardize specifications across all company applications.</li>
           <li>Created a new set of icons to be used across all products.</li>
@@ -68,10 +68,9 @@ title: "Résumé of Jason Wilson"
         <date>July 2009 - February 2011</date>
         <ul>
           <li>Led user interface development for a new first notice of loss application.</li>
-          <li>Performed frequent usability studies to help reduce the amount of time it takes to capture a claim during a first notice of loss phone call.</li>
-          <li>Helped draft new user interface requirements using common standards.</li>
-          <li>Created a front end framework to interface with a legacy mainframe system.</li>
-          <li>Developed a process to analyze data integrity between mainframes and database tables during a data migration project for data being migrated from mainframe to database tables.</li>
+          <li>Worked extensively with claims representatives by performing usability studies to learn their workflow and utilizing iterative development to reduce call volume and the time to record a claim.</li>
+          <li>Worked with engineering to adopt a standard user interface, utilizing jQuery with a JSP front-end to integrate with a legacy mainframe system.</li>
+          <li>Developed a process to do daily system checks of gigabytes of data between mainframe and database tables during a data migration project to ensure data integrity.</li>
         </ul>
       </li>
       <li class="experience">
@@ -81,7 +80,7 @@ title: "Résumé of Jason Wilson"
         <ul>
           <li>Created an internal project workflow system to help keep track of internal business requirements.</li>
           <li>Adapted a plugin to publish and sync business requirements to the company wiki.</li>
-          <li>Fixed maintenance bugs and investigated defects for the claims system.</li>
+          <li>Triaged and fixed maintenance bugs and defects for the claims system.</li>
         </ul>
       </li>
       <li class="experience">
