@@ -23,6 +23,7 @@ body {
 }
 
 h2 {
+  font-size: 1.3em;
   padding: .5em;
   color: #fff;
   background-color: rgba(0, 0, 0, .3);
@@ -32,6 +33,7 @@ h2 {
 
 section {
   clear: both;
+  font-size: 14px;
 }
 
 address {
@@ -52,7 +54,7 @@ section > ul {
 }
 
 li.experience {
-  margin-top: 2em;
+  margin-top: 1.25em;
   display: flex;
   flex-wrap: wrap;
 }
@@ -81,23 +83,36 @@ h4 {
 date {
   display: block;
   font-style: italic;
-}
-
-.experience date {
   align-self: flex-end;
   flex: 1;
   text-align: right;
+  line-height: 1.4285;
 }
 
-.skills {
-  overflow: hidden;
-}
-
-.skills li {
+.skills ul li {
   display: inline-block;
-  float: left;
-  width: 25%;
-  margin-top: .3em;
+}
+
+.skills ul li:not(:last-child):after {
+  content: ",";
+}
+
+.skills ul li:not(:first-child) {
+  padding-left: .3em;
+}
+
+.skills ul {
+  margin-top: .6em;
+  margin-bottom: .6em;
+}
+
+.education {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.education h2 {
+  width: 100%;
 }
 
 li.vevent {
@@ -138,6 +153,10 @@ footer {
   }
 
   .experience {
+    page-break-inside: avoid;
+  }
+
+  section {
     page-break-inside: avoid;
   }
 

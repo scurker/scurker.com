@@ -18,8 +18,8 @@ title: "Résumé of Jason Wilson"
         <h4>Education Advisory Board</h4>
         <date>April 2017 - Present</date>
         <ul>
-          <li>Intense focus on accessibility, working as part of a larger team to remediate key areas of Campus, a SaaS product serving higher education.</li>
-          <li>Modernized front-end build tooling in a legacy Ruby on Rails application utilizing Webpack and Babel, allowing for front-end development to use Preact and Typescript instead of HTML + jQuery.</li>
+          <li>Co-led accessibility efforts in a legacy Ruby on Rails application to meet WCAG 2.0 AA compliance.</li>
+          <li>Modernized e-mail templates to be responsive and in line with core branding.</li>
         </ul>
       </li>
       <li class="experience">
@@ -27,8 +27,8 @@ title: "Résumé of Jason Wilson"
         <h4>Daxko</h4>
         <date>February 2016 - April 2017</date>
         <ul>
-          <li>Developed and guided the launch of Daxko Mobile, a new mobile application built using Cordova and React serving members of YMCAs and JCCs to over 200 different clients.</li>
-          <li>Implemented a build process for the mobile application to ensure that the codebase was the same for all clients across multiple platforms (Android, iOS).</li>
+          <li>Architected and guided the launch of Daxko Mobile, a new mobile application built using Cordova and React serving members of YMCAs and JCCs to over 200 different clients.</li>
+          <li>Implemented a build process in node for Daxko Mobile to package assets per client across both Android and iOS, reducing build times from hours to minutes.</li>
         </ul>
       </li>
       <li class="experience">
@@ -36,10 +36,10 @@ title: "Résumé of Jason Wilson"
         <h4>Daxko</h4>
         <date>October 2013 - February 2016</date>
         <ul>
-          <li>Led and developed a redesign for one of the most highly trafficked pages in the principal SaaS product with more than 4 million monthly hits. Performed extensive user research sessions to help make the redesign a success.</li>
+          <li>Developed a redesign for one of the most highly trafficked pages in the principal SaaS product with more than 4 million monthly hits using research performed in extensive usability sessions.</li>
           <li>Performed a complete interface overhaul for several products updating an existing 6+ year old design and centralizing the look and feel under a more common UI framework.</li>
-          <li>Declared war against silverlight - updating many commonly used components to more open HTML5 components with progressive fallbacks to flash when necessary.</li>
-          <li>Implemented an automatic asset pipeline as part of the front-end build process to reduce the amount of manual work needed to compile assets. Reduced the average number of asset requests per page from 40 down to less than 5.</li>
+          <li>Declared war against silverlight - refactoring existing components to native HTML5 with progressive fallbacks to flash when necessary.</li>
+          <li>Introduced an automatic asset pipeline as part of the front-end build process; reducing the average number of asset requests per page from 40 down to less than 5.</li>
           <li>Championed and developed a new design system with components, documentation, and accessibility to unify products. Worked with designers and other developers to ensure the needs of the users and the product were built directly into the system.</li>
         </ul>
       </li>
@@ -49,8 +49,8 @@ title: "Résumé of Jason Wilson"
         <date>April 2011 - October 2013</date>
         <ul>
           <li>Led interaction design for an Accounting SaaS product serving member based non-profits.</li>
-          <li>Helped to convert the core framework javascript library from a 5 year old version of EXTJS to the latest version of jQuery.</li>
-          <li>Helped create a web standards group to standardize specifications across all company applications.</li>
+          <li>Convert the core javascript library from a 5 year old version of EXTJS to the latest version of jQuery.</li>
+          <li>Created a web standards group to standardize specifications across all development.</li>
           <li>Created a new set of icons to be used across all products.</li>
         </ul>
       </li>
@@ -83,6 +83,7 @@ title: "Résumé of Jason Wilson"
           <li>Triaged and fixed maintenance bugs and defects for the claims system.</li>
         </ul>
       </li>
+      <!-- / hidden, because it's so old! /
       <li class="experience">
         <h3>Java Programming Intern</h3>
         <h4>Infinity Insurance</h4>
@@ -91,6 +92,42 @@ title: "Résumé of Jason Wilson"
           <li>Developed Java portlets for the company intranet.</li>
         </ul>
       </li>
+      -->
+    </ul>
+  </section>
+  <section class="skills">
+    <h2>Technical Skills</h2>
+    <h3>Languages</h3>
+    <ul>
+      <li>Javascript (ES5, ES6)</li>
+      <li>Typescript</li>
+      <li>CSS</li>
+      <li>Less</li>
+      <li>Sass</li>
+      <li>PHP</li>
+      <li>Java</li>
+      <li>C#/.NET</li>
+      <li>HTML</li>
+    </ul>
+    <h3>Frameworks/Libraries</h3>
+    <ul>
+      <li>Babel</li>
+      <li>React</li>
+      <li>Preact</li>
+      <li>Vue.js</li>
+      <li>jQuery</li>
+      <li>Webpack</li>
+      <li>PostCSS</li>
+      <li>node/npm</li>
+      <li>D3</li>
+      <li>Phonegap/Cordova</li>
+      <li>git</li>
+    </ul>
+    <h3>Databases</h3>
+    <ul>
+      <li>MySQL</li>
+      <li>SQL Server</li>
+      <li>Postgres</li>
     </ul>
   </section>
   <section class="education">
@@ -99,33 +136,9 @@ title: "Résumé of Jason Wilson"
     <h4>Howard College of Arts and Sciences, Birmingham, Alabama</h4>
     <date>August 2003 - May 2007</date>
     <p>Bachelor of Science, with a Major in Computer Science and a Minor in Music</p>
-    <p>Samford University Deans List - Fall 2004, Spring 2007</p>
-  </section>
-  <section class="skills">
-    <h2>Tools &amp; Abilities</h2>
-    <ul class="skills">
-      <li class="skill">Javascript (ES5, ES6)</li>
-      <li class="skill">Typescript</li>
-      <li class="skill">jQuery</li>
-      <li class="skill">Preact, React</li>
-      <li class="skill">CSS2, CSS3</li>
-      <li class="skill">Less, Sass, PostCSS</li>
-      <li class="skill">PHP</li>
-      <li class="skill">Java</li>
-      <li class="skill">C#/.NET</li>
-      <li class="skill">git</li>
-      <li class="skill">HTML, HTML5</li>
-      <li class="skill">Wordpress</li>
-      <li class="skill">node</li>
-      <li class="skill">AWS</li>
-      <li class="skill">MySQL</li>
-      <li class="skill">Postgres</li>
-      <li class="skill">SQL Server</li>
-      <li class="skill">Webpack</li>
-      <li class="skill">Babel</li>
-      <li class="skill">D3</li>
-      <li class="skill">Phonegap/Cordova</li>
-    </ul>
+    <!-- / not sure if needed /
+      <p>Samford University Deans List - Fall 2004, Spring 2007</p>
+    -->
   </section>
   <section class="awards">
     <h2>Awards &amp; Honors</h2>
