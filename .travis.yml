@@ -7,12 +7,13 @@ branches:
 env:
   global:
   - secure: gYvLFxy2Mgto6+oeZzny6jgLtNNZ2GeSm9OSABskP0wy86s01WUpuGVWLdyU1DdVdcHRhKK7xl+yFgHBN3tyzz2YgVRNFrJL8jNr0km7H6qLNEghA//ZuDb7w06uW3kOGjtlG4EzheTrG2G6RsmeFflQscaS87t6//b0UTbU3WE=
+stages:
+  - deploy
+  - smoke-test
 jobs:
   include:
     - stage: deploy
-      - git status
-      - git remote add deploy $remote
-      - git push deploy HEAD:master
+      script: ./scripts/deploy.sh
     - stage: smoke-test
       script: ./scripts/smoke-test.sh
 before_install:
