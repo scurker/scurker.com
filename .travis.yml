@@ -7,11 +7,14 @@ branches:
 env:
   global:
   - secure: gYvLFxy2Mgto6+oeZzny6jgLtNNZ2GeSm9OSABskP0wy86s01WUpuGVWLdyU1DdVdcHRhKK7xl+yFgHBN3tyzz2YgVRNFrJL8jNr0km7H6qLNEghA//ZuDb7w06uW3kOGjtlG4EzheTrG2G6RsmeFflQscaS87t6//b0UTbU3WE=
-after_success:
-- git status
-- git remote add deploy $remote
-- git push deploy HEAD:master
-- ./scripts/smoke-test.sh
+jobs:
+  include:
+    - stage: deploy
+      - git status
+      - git remote add deploy $remote
+      - git push deploy HEAD:master
+    - stage: smoke-test
+      script: ./scripts/smoke-test.sh
 before_install:
 - echo -e "Host scurker.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 - openssl aes-256-cbc -K $encrypted_6a5cf90fd664_key -iv $encrypted_6a5cf90fd664_iv -in deploy-key.enc -out ~/.ssh/id_rsa -d
