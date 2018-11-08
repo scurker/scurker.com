@@ -49,11 +49,11 @@
     </footer>
   </div>
   <link rel="stylesheet" href="/assets/global.css">
+  <script type="text/javascript" src="/assets/global.js" async></script>
+  {{~#block "footer"}}{{/block}}
   {{! Only use analytics when we're live }}
   {{~#is env "production"}}
     {{> analytics }}
   {{~/is}}
-  {{~#block "footer"}}{{/block}}
-  <script type="text/javascript" src="/assets/global.js" async></script>
 </body>
 </html>
