@@ -1,7 +1,6 @@
 ---
 title: "Primer to Measuring Page Speed"
 date: 2018-12-12
-draft: true
 ---
 
 That are many different things that contribute to the speed of a page load. The amount of javascript that is being loading, the code that is being run in javascript, or even how assets are being loaded. Understanding the things that impact a page load can be overwhelming, but making small improvements can make a gradual impact towards making pages load faster.
