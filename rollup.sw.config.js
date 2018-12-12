@@ -13,7 +13,10 @@ export default {
         ...glob.sync('assets/**/*', {
             cwd: path.resolve(__dirname, dest),
             nodir: true,
-            ignore: '**/*.{ttf,woff}' // if browser supports workers, it supports woff2
+            ignore: [
+              '**/*.{ttf,woff}', // if browser supports workers, it supports woff2
+              'assets/images/posts/*', // don't pre-cache post images
+            ]
           }).map(file => `/${file}`),
         '/pages.json'
       ], null, 2)

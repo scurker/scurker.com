@@ -5,7 +5,7 @@
 
   date,
   .year {
-    color: rgb(118, 118, 118);
+    color: $gray-600;
   }
 
   .year {
@@ -25,6 +25,11 @@
   font-size: 2em;
   margin-top: 0;
   font-weight: 300;
+}
+
+.post img {
+  display: block;
+  margin: 0 auto;
 }
 
 .posts {
@@ -118,7 +123,7 @@
 }
 
 pre {
-  background-color: #f9f9f9;
+  background-color: $gray-100;
   padding: 1em;
   border-radius: 6px;
   @include monospaceFont;
@@ -156,6 +161,15 @@ footer {
   transform: translateX(-150%);
 }
 
+.demo-link:before {
+  content: "➡ ";
+  color: $gray-800;
+}
+
+.demo-link {
+  font-size: .9rem;
+}
+
 h2,
 h3,
 h4,
@@ -173,4 +187,17 @@ h6 {
 
 .offline-posts h3 {
   margin-top: 2em;
+}
+
+blockquote {
+  margin: 0;
+  padding: .5rem 1rem;
+  font-size: .9rem;
+  background-color: $gray-100;
+  border-left: 5px solid $gray-200;
+
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 }

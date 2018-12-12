@@ -44,6 +44,7 @@
     "metalsmith-ignore": "^1.0.0",
     "metalsmith-markdown": "^1.1.0",
     "metalsmith-perma": "^1.1.0",
+    "metalsmith-tweet-embed": "^1.0.0",
     "minimatch": "^3.0.0",
     "moment": "^2.22.2",
     "node-sass": "^4.10.0",
