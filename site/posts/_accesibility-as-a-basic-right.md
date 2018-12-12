@@ -1,1 +1,0 @@
-/Users/jwilson/Dropbox/Drafts/accessibility-as-a-basic-right.md
