@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <link href="{{url}}"/>
   <title>{{name}}</title>
-  <updated>{{articles.0.rfc822date}}</updated>
+  <updated>{{date posts.0.date "YYYY-MM-DDTHH:mm:ssZ"}}</updated>
   <id>{{url}}/</id>
   <author>
     <name>{{author}}</name>
@@ -13,8 +13,8 @@
   {{#posts}}
   <entry>
     <title>{{title}}</title>
-    <link href="{{../url}}{{url}}"/>
-    <id>{{../url}}{{url}}</id>
+    <link href="{{../url}}/{{path}}" />
+    <id>{{../url}}/{{path}}</id>
     <updated>{{date date "YYYY-MM-DDTHH:mm:ssZ"}}</updated>
     <content type="html">{{contents}}</content>
   </entry>
