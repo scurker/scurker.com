@@ -215,7 +215,7 @@ performance.mark('first-meaningful-paint');
 
 While puppeteer doesn't provide <abbr title="Time to interactive">TTI</abbr>, there are other things that you can track that can still provide some indication of interactiveness. If you're using a javascript library such as React or Vue, you could use lifecycle hooks inside of an important component to indicate that things are ready.
 
-> React Example
+<div class="code--title">React Example</div>
 
 ```javascript
 class ImportantComponent extends React.Component {
@@ -225,7 +225,7 @@ class ImportantComponent extends React.Component {
 }
 ```
 
-> Vue Example
+<div class="code--title">Vue Example</div>
 
 ```javascript
 export default {

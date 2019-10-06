@@ -1,0 +1,56 @@
+:root {
+
+  /* Colors */
+  --primary-color-rgb: 23, 27, 46;
+  --primary-color: rgb(var(--primary-color-rgb)); /* #171b2e */
+  --accent-color-rgb: 91, 201, 155;
+  --accent-color: rgb(var(--accent-color-rgb)); /* #5bc99b */
+  --highlight-color-rgb: 123, 208, 209;
+  --highlight-color: rgb(var(--highlight-color-rgb)); /* #7bd0d1 */
+  --icon-color: rgba(255, 255, 255, .9);
+  --code-background-color: rgba(0, 0, 0, .4);
+  --code-title-background-color: rgba(0, 0, 0, .9);
+  --code-variable-color: #ef4e4f;
+  --code-literal-color: #ce6811;
+  --code-value-color: #26bb00;
+  --code-comment-color: #999999;
+  --code-hex-color: #3e999f;
+  --code-function-color: #648dc4;
+  --code-keyword-color: #cb7efb;
+
+  --background-color: var(--primary-color);
+  --link-color: var(--accent-color);
+  --text-color: #e2e2e2;
+  --focus-ring-color: #ffbc40;
+
+  /* Dimensions */
+  --padding-x: .25rem;
+  --padding-xx: .5rem;
+  --padding-xxx: 1rem;
+  --grid-gutter-width: 1em;
+  --grid-center-column-width: 50em;
+
+  /* Layout */
+
+  /* Fonts */
+  --sans-serif-font: 'Noto Sans';
+  /*--monospace-font: '';*/
+  --base-font-size: 16px;
+  --font-size-small: 13px;
+
+
+}
+
+.theme--light {
+  --primary-color-rgb: 245, 245, 245; /* #f5f5f5 */
+  --primary-color: rgb(var(--primary-color-rgb));
+  --accent-color-rgb: 43, 119, 63; /* #2b773f */
+  --accent-color: rgb(var(--accent-color-rgb));
+  --highlight-color-rgb: 94, 164, 255;
+  --highlight-color: rgb(var(--highlight-color-rgb));
+  --text-color: #555;
+  --icon-color: rgba(0, 0, 0, .9);
+
+  --background-color: var(--primary-color);
+  --link-color: var(--accent-color);
+}

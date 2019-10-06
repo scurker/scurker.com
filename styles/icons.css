@@ -1,0 +1,17 @@
+/*.icon--moon {
+  --size: 2rem;
+  display: inline-block;
+  height: var(--size);
+  width: var(--size);
+  background-image: url('./images/moon.svg');
+  background-size: var(--size) var(--size);
+  color: var(--icon-color);
+}
+
+.icon {
+  --size: 2rem;
+  display: inline-block;
+  height: var(--size);
+  width: var(--size);
+  color: var(--icon-color);
+}*/

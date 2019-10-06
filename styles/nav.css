@@ -1,0 +1,87 @@
+.avatar,
+.avatar--large {
+  --size: 3rem;
+  display: inline-block;
+  border-radius: 50%;
+  height: var(--size);
+  width: var(--size);
+  background-image: url('/assets/images/profile.png');
+  background-size: var(--size) var(--size);
+  min-width: var(--size);
+}
+
+.avatar--large {
+  --size: 5rem;
+  height: var(--size);
+  width: var(--size);
+  background-size: var(--size) var(--size);
+}
+
+.theme--light {
+  .avatar,
+  .avatar--large {
+    box-shadow: 0 0 0 3px var(--highlight-color);
+  }
+}
+
+nav {
+  --line-height: 40px;
+}
+
+nav h1 {
+  margin: 0;
+  margin-left: .5em;
+  flex-grow: 1;
+}
+
+.nav--links {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+
+  a {
+    display: flex;
+    padding: 0 var(--padding-xxx);
+    line-height: var(--line-height);
+  }
+
+  a[aria-current] {
+    color: rgba(255, 255, 255, .5);
+    background-color: rgba(255, 255, 255, .05);
+  }
+}
+
+.nav--links .icon {
+  padding: 0 var(--padding-xx);
+  height: var(--line-height);
+  align-items: center;
+}
+
+nav button {
+  display: flex;
+  line-height: var(--line-height);
+}
+
+nav button[role="switch"] * {
+  pointer-events: none;
+}
+
+nav .sun {
+  display: none;
+}
+
+.theme--light {
+  .nav--links a[aria-current] {
+    color: var(--text-color);
+    background-color: rgba(0, 0, 0, .05);
+  }
+
+  nav .moon {
+    display: none;
+  }
+
+  nav .sun {
+    display: block;
+  }
+}

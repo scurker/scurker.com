@@ -1,0 +1,87 @@
+code {
+  --border-radius: 3px;
+  font-size: calc(var(--base-font-size) - 2px);
+  background-color: var(--code-background-color);
+  padding: var(--padding-x);
+  border-radius: 3px;
+  color: rgba(var(--highlight-color-rgb), .9);
+}
+
+.code--title {
+  background-color: var(--code-title-background-color);
+  padding: var(--padding-xx) var(--padding-xxx);
+  font-size: var(--font-size-small);
+  font-weight: bold;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  + pre {
+    margin-top: 0;
+  }
+  + pre code {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+}
+
+pre {
+
+  & code {
+    display: block;
+    overflow-y: auto;
+    font-size: calc(var(--base-font-size) - 2px);
+    padding: var(--padding-xxx);
+    border-radius: 3px;
+    color: var(--text-color);
+  }
+
+  .variable,
+  .attribute,
+  .tag,
+  .regexp,
+  .lang-xml .tag .title,
+  .lang-xml .pi,
+  .lang-xml .doctype,
+  .lang-html .doctype,
+  .lang-css .id,
+  .lang-css .class,
+  .lang-css .pseudo {
+    color: var(--code-variable-color);
+  }
+
+  .number,
+  .preprocessor,
+  .built_in,
+  .literal,
+  .params,
+  .constant {
+    color: var(--code-literal-color);
+  }
+
+  .string,
+  .value,
+  .inheritance,
+  .header,
+  .lang-xml .cdata {
+    color: var(--code-value-color);
+  }
+
+  .comment,
+  .meta {
+    color: var(--code-comment-color);
+  }
+
+  .css .hexcolor {
+    color: var(--code-hex-color);
+  }
+
+  .function,
+  .lang-javascript .title,
+  .lang-coffeescript .title {
+    color: var(--code-function-color);
+  }
+
+  .keyword {
+    color: var(--code-keyword-color);
+  }
+
+}

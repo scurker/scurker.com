@@ -11,18 +11,23 @@
     "postbuild": "npm run assets minify:* build:sw",
     "assets": "npm-run-all assets:sass assets:css assets:js",
     "assets:sass": "node-sass --include-path scss scss/global.scss build/assets/global.css",
-    "assets:css": "postcss -c postcss.config.js build/assets/global.css -o build/assets/global.css",
+    "assets:css": "postcss -c postcss.config.js styles/global.css -o build/assets/global.css",
     "assets:js": "BABEL_ENV=rollup rollup -c rollup.config.js",
     "build:sw": "BABEL_ENV=rollup rollup -c rollup.sw.config.js",
     "lint": "eslint .",
     "minify:html": "html-minifier --input-dir ./build --output-dir ./build --file-ext html --keep-closing-slash --collapse-whitespace --minify-css --minify-js",
     "metalsmith": "node ./lib/index.js",
-    "preview": "npm run build && http-server ./build"
+    "preview": "http-server ./build",
+    "watch": "npm-run-all --serial build --parallel preview watch:*",
+    "watch:css": "npm run assets:css -- --watch",
+    "watch:js": "npm run assets:js -- --watch"
   },
   "devDependencies": {
     "@scurker/eslint-config": "^1.1.5",
     "eslint": "^6.5.1",
-    "http-server": "^0.11.1"
+    "http-server": "^0.11.1",
+    "postcss-import": "^12.0.1",
+    "postcss-nested": "^4.1.2"
   },
   "dependencies": {
     "@babel/cli": "^7.6.2",
@@ -31,7 +36,7 @@
     "@babel/preset-env": "^7.6.2",
     "@babel/register": "^7.6.2",
     "autoprefixer": "^9.6.4",
-    "cheerio": "^0.22.0",
+    "cheerio": "^1.0.0-rc.2",
     "cssnano": "^4.1.10",
     "glob": "^7.1.4",
     "got": "^9.6.0",
