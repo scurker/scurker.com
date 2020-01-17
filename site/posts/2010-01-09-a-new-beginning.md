@@ -1,5 +1,5 @@
 ---
-title: "A new beginning"
+title: "A new beginning 2"
 date: 2010-01-19
 ---
 
