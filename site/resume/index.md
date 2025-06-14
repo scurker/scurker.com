@@ -11,6 +11,10 @@ title: "Résumé of Jason Wilson"
     <div><a class="url" href="https://scurker.com">https://scurker.com</a></div>
   </address>
   <section>
+    <h2>Professional Summary</h2>
+    Staff Front-End Engineer with 15+ years of experience designing and leading accessibility-focused, performant web applications. Expert in modern JavaScript, UI systems, and cross-functional team leadership.
+  </section>
+  <section>
     <h2>Experience</h2>
     <ul>
       <li class="experience">
@@ -24,15 +28,15 @@ title: "Résumé of Jason Wilson"
         <date>March 2019 - November 2023</date>
         <ul>
           <li>
-            Let efforts to modernize the axe DevTools browser extension, including:
+            Led efforts to modernize the axe DevTools browser extension, including:
             <ul>
-              <li>Improving confidence by building a comprehensive end-to-end test suite to work exclusively with Chrome devtools extensions.</li>
-              <li>Working with lead designer to integrate more seemlessly with internal pattern library.</li>
+              <li>Improved confidence by building a comprehensive end-to-end test suite to work exclusively with Chrome devtools extensions.</li>
+              <li>Worked with lead designer to integrate more seemlessly with internal pattern library.</li>
               <li>Full support for light/dark themes within a majority of the extension user interface.</li>
             </ul>
           </li>
           <li>Led implementation of many key features of the extension, including tools to guide users through interactive testing of their own websites to satisfy WCAG requirements.</li>
-          <li>Supporting the development of the extension leading to 300,000 monthly users.</li>
+          <li>Help scaled the extension to 300k+ monthly users.</li>
         </ul>
       </li>
       <li class="experience">
@@ -51,6 +55,7 @@ title: "Résumé of Jason Wilson"
         <ul>
           <li>Architected and guided the launch of Daxko Mobile, a new mobile application built using Cordova and React serving members of YMCAs and JCCs to over 200 different clients.</li>
           <li>Implemented a build process in node for Daxko Mobile to package assets per client across both Android and iOS, reducing build times from hours to minutes.</li>
+          <li>Led weekly front-end guild, promoting new technologies and building modern SaaS web-based applications at scale.</li>
         </ul>
       </li>
       <li class="experience">
@@ -137,6 +142,7 @@ title: "Résumé of Jason Wilson"
       <li>React</li>
       <li>Preact</li>
       <li>Vue.js</li>
+      <li>Mocha/ava/Jest</li>
       <li>jQuery</li>
       <li>Webpack</li>
       <li>PostCSS</li>
@@ -144,6 +150,11 @@ title: "Résumé of Jason Wilson"
       <li>D3</li>
       <li>Phonegap/Cordova</li>
       <li>git</li>
+    </ul>
+    <h3>CI/CD</h3>
+    <ul>
+      <li>Circle CI</li>
+      <li>GitHub Actions</li>
     </ul>
     <h3>Databases</h3>
     <ul>
@@ -167,24 +178,21 @@ title: "Résumé of Jason Wilson"
     <ul>
       <li class="vevent">
         Presented, “In Harmony with Javascript - ES6, Javascript, and You”
-        <small>at Birmingham BarCamp, Birmingham, Alabama April 2015 [https://scurker.com/in-harmony-with-javascript/]</small>
+        <small>at Birmingham BarCamp, Birmingham, Alabama (April 2015) [https://scurker.com/in-harmony-with-javascript/]</small>
       </li>
       <li class="vevent">
         Presented, “HTML5 and Mobile Development”
-        <small>at Samford University, Birmingham, Alabama October 2012</small>
+        <small>at Samford University, Birmingham, Alabama (October 2012)</small>
       </li>
       <li class="vevent">
         Presented, “Go Mobile, Developing for a Mobile Web”
-        <small>at TechMixer University, Birmingham, Alabama September 2011</small>
+        <small>at TechMixer University, Birmingham, Alabama (September 2011)</small>
       </li>
       <li class="vevent">
         Presented, “Developing with HTML 5 and CSS 3”
-        <small>at Birmingham BarCamp, Birmingham, Alabama August 2008</small>
+        <small>at Birmingham BarCamp, Birmingham, Alabama (August 2008)</small>
       </li>
     </ul>
   </section>
-  <footer>
-    Jason Wilson - jason@scurker.com - 205.613.3126
-  </footer>
   <link rel="stylesheet" href="resume.css"/>
 </div>
