@@ -7,16 +7,38 @@ title: "Résumé of Jason Wilson"
   <address class="vcard contact">
     <div><a class="email" href="mailto:jason@scurker.com">jason@scurker.com</a></div>
     <div class="tel">205.613.3126</div>
-    <div><a class="url" href="https://twitter.com/scurker">@scurker</a> on Twitter • <a class="url" href="https://github.com/scurker">scurker</a> on GitHub</div>
+    <div><a class="url" href="https://github.com/scurker">scurker</a> on GitHub</div>
     <div><a class="url" href="https://scurker.com">https://scurker.com</a></div>
   </address>
   <section>
     <h2>Experience</h2>
     <ul>
       <li class="experience">
+        <h3>Staff Front-End Engineer</h3>
+        <h4>Deque Systems</h4>
+        <date>November 2023 - Present</date>
+      </li>
+      <li class="experience">
+        <h3>Senior Product Developer</h3>
+        <h4>Deque Systems</h4>
+        <date>March 2019 - November 2023</date>
+        <ul>
+          <li>
+            Let efforts to modernize the axe DevTools browser extension, including:
+            <ul>
+              <li>Improving confidence by building a comprehensive end-to-end test suite to work exclusively with Chrome devtools extensions.</li>
+              <li>Working with lead designer to integrate more seemlessly with internal pattern library.</li>
+              <li>Full support for light/dark themes within a majority of the extension user interface.</li>
+            </ul>
+          </li>
+          <li>Led implementation of many key features of the extension, including tools to guide users through interactive testing of their own websites to satisfy WCAG requirements.</li>
+          <li>Supporting the development of the extension leading to 300,000 monthly users.</li>
+        </ul>
+      </li>
+      <li class="experience">
         <h3>Front End Engineer</h3>
         <h4>Education Advisory Board</h4>
-        <date>April 2017 - Present</date>
+        <date>April 2017 - March 2019</date>
         <ul>
           <li>Co-led accessibility efforts in a legacy Ruby on Rails application to meet WCAG 2.0 AA compliance.</li>
           <li>Modernized e-mail templates to be responsive and in line with core branding.</li>
