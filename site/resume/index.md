@@ -32,12 +32,11 @@ title: "Résumé of Jason Wilson"
               Led efforts to modernize the axe DevTools browser extension, including:
               <ul>
                 <li>Improved confidence by building a comprehensive end-to-end test suite to work exclusively with Chrome devtools extensions.</li>
-                <li>Worked with lead designer to integrate more seemlessly with internal pattern library.</li>
-                <li>Full support for light/dark themes within a majority of the extension user interface.</li>
+                <li>Collaborating with design teams to unify internal pattern libraries and dark/light theming.</li>
               </ul>
             </li>
             <li>Led implementation of many key features of the extension, including tools to guide users through interactive testing of their own websites to satisfy WCAG requirements.</li>
-            <li>Help scaled the extension to 300k+ monthly users.</li>
+            <li>Helping support and scale the extension to over 300,000 monthly users.</li>
           </ul>
         </li>
         <li class="experience">

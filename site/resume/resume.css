@@ -63,7 +63,14 @@ li.experience {
   grid-column: span 2;
   margin: 0;
   padding-top: .75rem;
-  padding-left: 1.5rem;
+}
+
+.experience ul {
+  padding-left:  1.5rem;
+}
+
+.experience > ul li {
+  list-style-type: circle;
 }
 
 h3, h4 {
