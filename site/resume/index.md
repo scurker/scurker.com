@@ -178,7 +178,7 @@ title: "Résumé of Jason Wilson"
       <h3>Samford University</h3>
       <h4>Howard College of Arts and Sciences, Birmingham, Alabama</h4>
       <date>August 2003 - May 2007</date>
-      <p>Bachelor of Science, with a Major in Computer Science and a Minor in Music</p>
+      <p>Bachelor of Science in Computer Science, Minor in Music</p>
       <!-- / not sure if needed /
         <p>Samford University Deans List - Fall 2004, Spring 2007</p>
       -->
