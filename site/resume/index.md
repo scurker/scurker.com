@@ -185,7 +185,7 @@ title: "Résumé of Jason Wilson"
       <ul>
         <li class="vevent">
           Presented, “In Harmony with Javascript - ES6, Javascript, and You”
-          <small>at Birmingham BarCamp, Birmingham, Alabama (April 2015) [https://scurker.com/in-harmony-with-javascript/]</small>
+          <small>at Birmingham BarCamp, Birmingham, Alabama (April 2015) (<a href="https://scurker.com/in-harmony-with-javascript-es6-javascript-and-you/">https://scurker.com/in-harmony-with-javascript-es6-javascript-and-you/</a>)</small>
         </li>
         <li class="vevent">
           Presented, “HTML5 and Mobile Development”
