@@ -78,11 +78,18 @@ title: "Résumé of Jason Wilson"
           <date>April 2011 - October 2013</date>
           <ul>
             <li>Led interaction design for an Accounting SaaS product serving member based non-profits.</li>
-            <li>Convert the core javascript library from a 5 year old version of EXTJS to the latest version of jQuery.</li>
+            <li>Converted the core JavaScript library from a 5 year old version of EXTJS to the latest version of jQuery.</li>
             <li>Created a web standards group to standardize specifications across all development.</li>
             <li>Created a new set of icons to be used across all products.</li>
           </ul>
         </li>
+        <li class="experience">
+          <h3>Application Developer → Software Engineer</h3>
+          <h4>Infinity Insurance</h4>
+          <date>July 2007 - April 2011</date>
+          <li>Built and maintained internal tools and customer-facing web apps, modernized front-end interfaces for legacy systems, and contributed to data integrity and workflow improvements across claims processing platforms.</li>
+        </li>
+        <!-- / hidden, because it's so old! /
         <li class="experience">
           <h3>Web Developer</h3>
           <h4>Infinity Insurance</h4>
@@ -112,7 +119,7 @@ title: "Résumé of Jason Wilson"
             <li>Triaged and fixed maintenance bugs and defects for the claims system.</li>
           </ul>
         </li>
-        <!-- / hidden, because it's so old! /
+
         <li class="experience">
           <h3>Java Programming Intern</h3>
           <h4>Infinity Insurance</h4>
