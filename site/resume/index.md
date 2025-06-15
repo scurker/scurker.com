@@ -13,7 +13,7 @@ title: "Résumé of Jason Wilson"
     </address>
     <section>
       <h2>Professional Summary</h2>
-      Staff Front-End Engineer with 15+ years of experience designing and leading accessibility-focused, high‑performance web applications. Expert in modern JavaScript, UI systems, and cross-functional team leadership.
+      Staff Front-End Engineer with 15+ years of experience designing and leading accessibility-focused, high‑performance web applications. Expert in modern JavaScript, UI systems, and cross-functional team leadership. Passionate about scalable design systems.
     </section>
     <section>
       <h2>Experience</h2>
