@@ -87,9 +87,11 @@ title: "Résumé of Jason Wilson"
           <h3>Application Developer → Software Engineer</h3>
           <h4>Infinity Insurance</h4>
           <date>July 2007 - April 2011</date>
-          <li>Built and maintained internal tools and customer-facing web apps, modernized front-end interfaces for legacy systems, and contributed to data integrity and workflow improvements across claims processing platforms.</li>
+          <ul>
+            <li>Built and maintained internal tools and customer-facing web apps, modernized front-end interfaces for legacy systems, and contributed to data integrity and workflow improvements across claims processing platforms.</li>
+          </ul>
         </li>
-        <!-- / hidden, because it's so old! /
+       <!-- / hidden, because it's so old! /
         <li class="experience">
           <h3>Web Developer</h3>
           <h4>Infinity Insurance</h4>
