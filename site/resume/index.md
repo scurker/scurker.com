@@ -13,7 +13,7 @@ title: "Résumé of Jason Wilson"
     </address>
     <section>
       <h2>Professional Summary</h2>
-      Staff Front-End Engineer with 15+ years of experience designing and leading accessibility-focused, performant web applications. Expert in modern JavaScript, UI systems, and cross-functional team leadership.
+      Staff Front-End Engineer with 15+ years of experience designing and leading accessibility-focused, high‑performance web applications. Expert in modern JavaScript, UI systems, and cross-functional team leadership.
     </section>
     <section>
       <h2>Experience</h2>
@@ -25,7 +25,7 @@ title: "Résumé of Jason Wilson"
           <ul>
             <li>Lead the architecture and development of a shared “recipe” component layer to standardize the UX for displaying accessibility issues across multiple products.</li>
             <li>Architect, implement, and document complex ARIA components (e.g., Combobox, Menu) in Cauldron, establishing consistent behavioral patterns and reusable logic across teams.</li>
-            <li>Modernize Cauldron documentation by migrating to MDX-based templates, enabling more efficient contributions across engineering and design teams.</li>
+            <li>Led re-architecture of Cauldron documentation by migrating to MDX-based templates, enabling more efficient contributions across engineering and design teams.</li>
             <li>Collaborate across teams to support front-end architecture decisions, aligning accessibility tooling and UI consistency in complex application environments.</li>
             <li>Contribute to axe DevTools by developing user flow analysis features, enhancing the extension's ability to guide users through real-world accessibility testing scenarios.</li>
           </ul>
@@ -38,8 +38,8 @@ title: "Résumé of Jason Wilson"
             <li>
               Led efforts to modernize the axe DevTools browser extension, including:
               <ul>
-                <li>Improved confidence by building a comprehensive end-to-end test suite to work exclusively with Chrome devtools extensions.</li>
-                <li>Collaborating with design teams to unify internal pattern libraries and dark/light theming.</li>
+                <li>Improved confidence by building a comprehensive end-to-end test suite to work exclusively with Chrome DevTools extensions.</li>
+                <li>Collaborating with design team to unify internal pattern libraries and dark/light theming.</li>
               </ul>
             </li>
             <li>Led implementation of many key features of the extension, including tools to guide users through interactive testing of their own websites to satisfy WCAG requirements.</li>
@@ -72,7 +72,7 @@ title: "Résumé of Jason Wilson"
           <ul>
             <li>Developed a redesign for one of the most highly trafficked pages in the principal SaaS product with more than 4 million monthly hits using research performed in extensive usability sessions.</li>
             <li>Performed a complete interface overhaul for several products updating an existing 6+ year old design and centralizing the look and feel under a more common UI framework.</li>
-            <li>Declared war against silverlight - refactoring existing components to native HTML5 with progressive fallbacks to flash when necessary.</li>
+            <li>Declared war on Silverlight - refactoring existing components to native HTML5 with progressive fallbacks to flash when necessary.</li>
             <li>Introduced an automatic asset pipeline as part of the front-end build process; reducing the average number of asset requests per page from 40 down to less than 5.</li>
             <li>Championed and developed a new design system with components, documentation, and accessibility to unify products. Worked with designers and other developers to ensure the needs of the users and the product were built directly into the system.</li>
           </ul>
