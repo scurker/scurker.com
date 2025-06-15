@@ -93,6 +93,7 @@ h4 {
 date {
   font-style: italic;
   line-height: 1.6;
+  grid-column: span 2;
 }
 
 .skills ul li {

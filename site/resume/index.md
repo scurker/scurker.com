@@ -22,6 +22,13 @@ title: "Résumé of Jason Wilson"
           <h3>Staff Front-End Engineer</h3>
           <h4>Deque Systems</h4>
           <date>November 2023 - Present</date>
+          <ul>
+            <li>Lead the architecture and development of a shared “recipe” component layer to standardize the UX for displaying accessibility issues across multiple products.</li>
+            <li>Architect, implement, and document complex ARIA components (e.g., Combobox, Menu) in Cauldron, establishing consistent behavioral patterns and reusable logic across teams.</li>
+            <li>Modernize Cauldron documentation by migrating to MDX-based templates, enabling more efficient contributions across engineering and design teams.</li>
+            <li>Collaborate across teams to support front-end architecture decisions, aligning accessibility tooling and UI consistency in complex application environments.</li>
+            <li>Contribute to axe DevTools by developing user flow analysis features, enhancing axe DevTools ability to guide users through real-world accessibility testing scenarios.</li>
+          </ul>
         </li>
         <li class="experience">
           <h3>Senior Product Developer</h3>
