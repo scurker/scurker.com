@@ -122,6 +122,10 @@ date {
   width: 100%;
 }
 
+.education date {
+  flex-basis: 100%;
+}
+
 li.vevent {
   list-style-type: circle;
   margin-left: 1.5em;
