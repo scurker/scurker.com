@@ -25,7 +25,7 @@ title: "Résumé of Jason Wilson"
           <ul>
             <li>Leading the architecture and development of a shared “recipe” component layer to standardize the UX for displaying accessibility issues across multiple product teams.</li>
             <li>Architect, implement, and document complex ARIA components (e.g., Combobox, Menu) in Cauldron, establishing consistent behavioral patterns and reusable logic across all teams.</li>
-            <li>Re‑architected Cauldron docs with MDX templates, reducing contributor onboarding time and improving docs consistency while allowing for both design and engineering contributions.</li>
+            <li>Re‑architect Cauldron documentation with MDX templates, reducing contributor onboarding time and improving docs consistency while allowing for both design and engineering contributions.</li>
             <li>Collaborate across 7+ product teams to support front-end architecture decisions, aligning accessibility tooling and UI consistency in complex application environments.</li>
             <li>Contribute to axe DevTools by developing user flow analysis features, enhancing the extension's ability to guide users through real-world accessibility testing scenarios.</li>
           </ul>
@@ -38,7 +38,7 @@ title: "Résumé of Jason Wilson"
             <li>Spearheaded modernization of axe DevTools, building a comprehensive end-to-end test suite to increase release confidence and partnered with design to unify UX patterns across light/dark modes.
             </li>
             <li>Led implementation of many key features of the extension, including tools to guide users through interactive testing of their own websites to satisfy WCAG requirements.</li>
-            <li>Supported and scaled the extension to over 300k monthly users.</li>
+            <li>Supported and scaled the extension leading to over 300k monthly users.</li>
           </ul>
         </li>
         <li class="experience">
