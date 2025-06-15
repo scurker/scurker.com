@@ -35,12 +35,7 @@ title: "Résumé of Jason Wilson"
           <h4>Deque Systems</h4>
           <date>March 2019 - November 2023</date>
           <ul>
-            <li>
-              Led efforts to modernize the axe DevTools browser extension, including:
-              <ul>
-                <li>Improved confidence by building a comprehensive end-to-end test suite to work exclusively with Chrome DevTools extensions.</li>
-                <li>Collaborating with design team to unify internal pattern libraries and dark/light theming.</li>
-              </ul>
+            <li>Spearheaded modernization of axe DevTools, building a comprehensive end-to-end test suite to increase release confidence and partnered with design to unify UX patterns across light/dark modes.
             </li>
             <li>Led implementation of many key features of the extension, including tools to guide users through interactive testing of their own websites to satisfy WCAG requirements.</li>
             <li>Helping support and scale the extension to over 300,000 monthly users.</li>
