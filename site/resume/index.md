@@ -91,7 +91,7 @@ title: "Résumé of Jason Wilson"
             <li>Built and maintained internal tools and customer-facing web apps, modernized front-end interfaces for legacy systems, and contributed to data integrity and workflow improvements across claims processing platforms.</li>
           </ul>
         </li>
-       <!-- / hidden, because it's so old! /
+        <!-- / hidden, because it's so old! /
         <li class="experience">
           <h3>Web Developer</h3>
           <h4>Infinity Insurance</h4>
@@ -121,7 +121,6 @@ title: "Résumé of Jason Wilson"
             <li>Triaged and fixed maintenance bugs and defects for the claims system.</li>
           </ul>
         </li>
-
         <li class="experience">
           <h3>Java Programming Intern</h3>
           <h4>Infinity Insurance</h4>
