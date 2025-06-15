@@ -23,10 +23,10 @@ title: "Résumé of Jason Wilson"
           <h4>Deque Systems</h4>
           <date>November 2023 - Present</date>
           <ul>
-            <li>Lead the architecture and development of a shared “recipe” component layer to standardize the UX for displaying accessibility issues across multiple products.</li>
-            <li>Architect, implement, and document complex ARIA components (e.g., Combobox, Menu) in Cauldron, establishing consistent behavioral patterns and reusable logic across teams.</li>
-            <li>Led re-architecture of Cauldron documentation by migrating to MDX-based templates, enabling more efficient contributions across engineering and design teams.</li>
-            <li>Collaborate across teams to support front-end architecture decisions, aligning accessibility tooling and UI consistency in complex application environments.</li>
+            <li>Leading the architecture and development of a shared “recipe” component layer to standardize the UX for displaying accessibility issues across multiple product teams.</li>
+            <li>Architect, implement, and document complex ARIA components (e.g., Combobox, Menu) in Cauldron, establishing consistent behavioral patterns and reusable logic across all teams.</li>
+            <li>Re‑architected Cauldron docs with MDX templates, reducing contributor onboarding time and improving docs consistency while allowing for both design and engineering contributions.</li>
+            <li>Collaborate across 7+ product teams to support front-end architecture decisions, aligning accessibility tooling and UI consistency in complex application environments.</li>
             <li>Contribute to axe DevTools by developing user flow analysis features, enhancing the extension's ability to guide users through real-world accessibility testing scenarios.</li>
           </ul>
         </li>
@@ -38,7 +38,7 @@ title: "Résumé of Jason Wilson"
             <li>Spearheaded modernization of axe DevTools, building a comprehensive end-to-end test suite to increase release confidence and partnered with design to unify UX patterns across light/dark modes.
             </li>
             <li>Led implementation of many key features of the extension, including tools to guide users through interactive testing of their own websites to satisfy WCAG requirements.</li>
-            <li>Helping support and scale the extension to over 300,000 monthly users.</li>
+            <li>Supported and scaled the extension to over 300k monthly users.</li>
           </ul>
         </li>
         <li class="experience">
@@ -88,7 +88,7 @@ title: "Résumé of Jason Wilson"
           <h4>Infinity Insurance</h4>
           <date>July 2007 - April 2011</date>
           <ul>
-            <li>Built and maintained internal tools and customer-facing web apps, modernized front-end interfaces for legacy systems, and contributed to data integrity and workflow improvements across claims processing platforms.</li>
+            <li>Built and maintained internal tools and customer-facing web apps, modernized legacy front-end systems, and improved claims workflows and data integrity through UI and infrastructure enhancements.</li>
           </ul>
         </li>
         <!-- / hidden, because it's so old! /
@@ -136,7 +136,7 @@ title: "Résumé of Jason Wilson"
       <h2>Technical Skills</h2>
       <h3>Languages</h3>
       <ul>
-        <li>Javascript (ES5, ES6)</li>
+        <li>JavaScript (ES5, ES6)</li>
         <li>Typescript</li>
         <li>CSS</li>
         <li>Less</li>
@@ -187,7 +187,7 @@ title: "Résumé of Jason Wilson"
       <h2>Awards &amp; Honors</h2>
       <ul>
         <li class="vevent">
-          Presented, “In Harmony with Javascript - ES6, Javascript, and You”
+          Presented, “In Harmony with JavaScript - ES6, JavaScript, and You”
           <small>at Birmingham BarCamp, Birmingham, Alabama (April 2015) (<a href="https://scurker.com/in-harmony-with-javascript-es6-javascript-and-you/">https://scurker.com/in-harmony-with-javascript-es6-javascript-and-you/</a>)</small>
         </li>
         <li class="vevent">
