@@ -23,9 +23,9 @@ title: "Résumé of Jason Wilson"
           <h4>Deque Systems</h4>
           <date>November 2023 - Present</date>
           <ul>
-            <li>Leading the architecture and development of a shared “recipe” component layer to standardize the UX for displaying accessibility issues across multiple product teams.</li>
-            <li>Architect, implement, and document complex ARIA components (e.g., Combobox, Menu) in Cauldron, establishing consistent behavioral patterns and reusable logic across all teams.</li>
-            <li>Re‑architect Cauldron documentation with MDX templates, reducing contributor onboarding time and improving docs consistency while allowing for both design and engineering contributions.</li>
+            <li>Leading the architecture and development of shared “recipe” layers for common components and patterns to standardize UX across multiple product teams.</li>
+            <li>Architect, implement, and document complex ARIA components (e.g., Combobox, Menu) in Deque's component library, Cauldron, establishing consistent behavioral patterns and reusable logic across all teams.</li>
+            <li>Re-architect component library documentation site with MDX templates, reducing contributor onboarding time and improving docs consistency while allowing for both design and engineering contributions.</li>
             <li>Collaborate across 7+ product teams to support front-end architecture decisions, aligning accessibility tooling and UI consistency in complex application environments.</li>
             <li>Contribute to axe DevTools by developing user flow analysis features, enhancing the extension's ability to guide users through real-world accessibility testing scenarios.</li>
           </ul>
@@ -35,8 +35,7 @@ title: "Résumé of Jason Wilson"
           <h4>Deque Systems</h4>
           <date>March 2019 - November 2023</date>
           <ul>
-            <li>Spearheaded modernization of axe DevTools, building a comprehensive end-to-end test suite to increase release confidence and partnered with design to unify UX patterns across light/dark modes.
-            </li>
+            <li>Spearheaded modernization of Deque's browser extension, axe DevTools, building a comprehensive end-to-end test suite to increase release confidence and partnered with design to unify UX patterns across light/dark modes.</li>
             <li>Led implementation of many key features of the extension, including tools to guide users through interactive testing of their own websites to satisfy WCAG requirements.</li>
             <li>Supported and scaled the extension leading to over 300k monthly users.</li>
           </ul>
