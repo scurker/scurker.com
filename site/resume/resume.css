@@ -137,7 +137,7 @@ li.vevent + li.vevent {
 
 li.vevent small {
   display: block;
-  opacity: .6;
+  color: #717171;
 }
 
 footer {
