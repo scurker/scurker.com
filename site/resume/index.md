@@ -23,11 +23,11 @@ title: "Résumé of Jason Wilson"
           <h4>Deque Systems</h4>
           <date>November 2023 - Present</date>
           <ul>
-            <li>Leading the architecture and development of “recipe” layers to standardize component usage across 7+ product teams, unifying UX and reducing rework.</li>
+            <li>Spearhaded architecture and development of “recipe” layers to standardize component usage across 7+ product teams, unifying UX and reducing rework.</li>
             <li>Engineered complex ARIA components (e.g., Combobox, Menu) for Deque’s Cauldron library, ensuring WCAG-compliant, reusable behavior patterns.</li>
             <li>Rebuilt MDX-based documentation for component library, decreasing contributor ramp-up time and improving design-dev collaboration.</li>
             <li>Collaborate across 7+ product teams to support front-end architecture decisions, aligning accessibility tooling and UI consistency in complex application environments.</li>
-            <li>Contributed key features to axe DevTools, improving user guidance for real-world accessibility testing workflows.</li>
+            <li>Delivered key features to axe DevTools, improving user guidance for real-world accessibility testing workflows.</li>
           </ul>
         </li>
         <li class="experience">
@@ -37,7 +37,7 @@ title: "Résumé of Jason Wilson"
           <ul>
             <li>Modernized axe DevTools browser extension, building robust end-to-end test infrastructure and improving release reliability across multiple environments.</li>
             <li>Led UX overhaul to support light/dark mode parity, collaborating closely with design to unify component behaviors and themes.</li>
-            <li>Built interactive testing tools for developers to validate WCAG compliance, contributing to user growth to over 300k monthly users.</li>
+            <li>Developed interactive testing tools for developers to validate WCAG compliance, contributing to user growth to over 300k monthly users.</li>
           </ul>
         </li>
         <li class="experience">
@@ -46,7 +46,7 @@ title: "Résumé of Jason Wilson"
           <date>April 2017 - March 2019</date>
           <ul>
             <li>Co-led accessibility initiative for legacy Ruby on Rails web app, implementing changes to meet WCAG 2.0 AA compliance across key user workflows.</li>
-            <li>Modernized responsive email templates to align with brand guidelines, improving mobile readability across thousands of daily email transactions.</li>
+            <li>Redesigned responsive email templates to align with brand guidelines, improving mobile readability across thousands of daily email transactions.</li>
           </ul>
         </li>
         <li class="experience">
@@ -55,8 +55,8 @@ title: "Résumé of Jason Wilson"
           <date>February 2016 - April 2017</date>
           <ul>
             <li>Architected and launched Daxko Mobile, a cross-platform Cordova + React app serving 200+ YMCA/JCC clients, providing seamless mobile access to memberships and services.</li>
-            <li>Implemented a build process in node for Daxko Mobile to package assets per client across both Android and iOS, reducing build times from hours to minutes.</li>
-            <li>Led weekly front-end guild sessions to introduce modern JavaScript tools and foster a culture of scalable front-end best practices across multiple teams.</li>
+            <li>Developed a build process in node for Daxko Mobile to package assets per client across both Android and iOS, reducing build times from hours to minutes.</li>
+            <li>Facilitated weekly front-end guild sessions to introduce modern JavaScript tools and foster a culture of scalable front-end best practices across multiple teams.</li>
           </ul>
         </li>
         <li class="experience">
@@ -78,8 +78,8 @@ title: "Résumé of Jason Wilson"
           <ul>
             <li>Led interaction design for an Accounting SaaS product serving member based non-profits.</li>
             <li>Converted the core JavaScript library from a 5 year old version of EXTJS to the latest version of jQuery.</li>
-            <li>Created a web standards group to standardize specifications across all development.</li>
-            <li>Created a new set of icons to be used across all products.</li>
+            <li>Established a web standards group to standardize specifications across all development.</li>
+            <li>Designed a new set of icons to be used across all products.</li>
           </ul>
         </li>
         <li class="experience">
@@ -87,7 +87,7 @@ title: "Résumé of Jason Wilson"
           <h4>Infinity Insurance</h4>
           <date>July 2007 - April 2011</date>
           <ul>
-            <li>Built and maintained internal tools and customer-facing web apps, modernized legacy front-end systems, and improved claims workflows and data integrity through UI and infrastructure enhancements.</li>
+            <li>Developed and supported internal tools and customer-facing web apps, modernized legacy front-end systems, and improved claims workflows and data integrity through UI and infrastructure enhancements.</li>
           </ul>
         </li>
         <!-- / hidden, because it's so old! /
