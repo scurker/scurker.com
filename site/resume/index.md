@@ -8,8 +8,8 @@ title: "Résumé of Jason Wilson"
     <address class="vcard contact">
       <div><a class="email" href="mailto:jason@scurker.com">jason@scurker.com</a></div>
       <div class="tel">205.613.3126</div>
-      <div><a class="url" href="https://github.com/scurker">scurker</a> on GitHub</div>
-      <div><a class="url" href="https://scurker.com">https://scurker.com</a></div>
+      <div><a class="url" href="https://github.com/scurker">scurker</a> on GitHub · <a class="url" href="https://scurker.com">https://scurker.com</a></div>
+      <div>Remote / Birmingham, AL</div>
     </address>
     <section>
       <h2>Professional Summary</h2>
