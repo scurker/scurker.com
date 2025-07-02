@@ -23,11 +23,11 @@ title: "Résumé of Jason Wilson"
           <h4>Deque Systems</h4>
           <date>November 2023 - Present</date>
           <ul>
-            <li>Leading the architecture and development of shared “recipe” layers for common components and patterns to standardize UX across multiple product teams.</li>
-            <li>Architect, implement, and document complex ARIA components (e.g., Combobox, Menu) in Deque's component library, Cauldron, establishing consistent behavioral patterns and reusable logic across all teams.</li>
-            <li>Re-architect component library documentation site with MDX templates, reducing contributor onboarding time and improving docs consistency while allowing for both design and engineering contributions.</li>
+            <li>Leading the architecture and development of “recipe” layers to standardize component usage across 7+ product teams, unifying UX and reducing rework.</li>
+            <li>Engineered complex ARIA components (e.g., Combobox, Menu) for Deque’s Cauldron library, ensuring WCAG-compliant, reusable behavior patterns.</li>
+            <li>Rebuilt MDX-based documentation for component library, decreasing contributor ramp-up time and improving design-dev collaboration.</li>
             <li>Collaborate across 7+ product teams to support front-end architecture decisions, aligning accessibility tooling and UI consistency in complex application environments.</li>
-            <li>Contribute to axe DevTools by developing user flow analysis features, enhancing the extension's ability to guide users through real-world accessibility testing scenarios.</li>
+            <li>Contributed key features to axe DevTools, improving user guidance for real-world accessibility testing workflows.</li>
           </ul>
         </li>
         <li class="experience">
@@ -35,9 +35,9 @@ title: "Résumé of Jason Wilson"
           <h4>Deque Systems</h4>
           <date>March 2019 - November 2023</date>
           <ul>
-            <li>Spearheaded modernization of Deque's browser extension, axe DevTools, building a comprehensive end-to-end test suite to increase release confidence and partnered with design to unify UX patterns across light/dark modes.</li>
-            <li>Led implementation of many key features of the extension, including tools to guide users through interactive testing of their own websites to satisfy WCAG requirements.</li>
-            <li>Supported and scaled the extension leading to over 300k monthly users.</li>
+            <li>Modernized axe DevTools browser extension, building robust end-to-end test infrastructure and improving release reliability across multiple environments.</li>
+            <li>Led UX overhaul to support light/dark mode parity, collaborating closely with design to unify component behaviors and themes.</li>
+            <li>Built interactive testing tools for developers to validate WCAG compliance, contributing to user growth to over 300k monthly users.</li>
           </ul>
         </li>
         <li class="experience">
@@ -45,8 +45,8 @@ title: "Résumé of Jason Wilson"
           <h4>Education Advisory Board</h4>
           <date>April 2017 - March 2019</date>
           <ul>
-            <li>Co-led accessibility efforts in a legacy Ruby on Rails application to meet WCAG 2.0 AA compliance.</li>
-            <li>Modernized e-mail templates to be responsive and in line with core branding.</li>
+            <li>Co-led accessibility initiative for legacy Ruby on Rails web app, implementing changes to meet WCAG 2.0 AA compliance across key user workflows.</li>
+            <li>Modernized responsive email templates to align with brand guidelines, improving mobile readability across thousands of daily email transactions.</li>
           </ul>
         </li>
         <li class="experience">
@@ -54,9 +54,9 @@ title: "Résumé of Jason Wilson"
           <h4>Daxko</h4>
           <date>February 2016 - April 2017</date>
           <ul>
-            <li>Architected and guided the launch of Daxko Mobile, a new mobile application built using Cordova and React serving members of YMCAs and JCCs to over 200 different clients.</li>
+            <li>Architected and launched Daxko Mobile, a cross-platform Cordova + React app serving 200+ YMCA/JCC clients, providing seamless mobile access to memberships and services.</li>
             <li>Implemented a build process in node for Daxko Mobile to package assets per client across both Android and iOS, reducing build times from hours to minutes.</li>
-            <li>Led weekly front-end guild, promoting new technologies and building modern SaaS web-based applications at scale.</li>
+            <li>Led weekly front-end guild sessions to introduce modern JavaScript tools and foster a culture of scalable front-end best practices across multiple teams.</li>
           </ul>
         </li>
         <li class="experience">
@@ -64,10 +64,10 @@ title: "Résumé of Jason Wilson"
           <h4>Daxko</h4>
           <date>October 2013 - February 2016</date>
           <ul>
-            <li>Developed a redesign for one of the most highly trafficked pages in the principal SaaS product with more than 4 million monthly hits using research performed in extensive usability sessions.</li>
-            <li>Performed a complete interface overhaul for several products updating an existing 6+ year old design and centralizing the look and feel under a more common UI framework.</li>
+            <li>Redesigned a high-traffic SaaS dashboard (4M+ monthly hits), improving usability through iterative design informed by extensive research and user testing.</li>
+            <li>Led overhaul of 6+ year-old product interfaces, introducing a modern UI framework to unify look and feel across the product suite.</li>
             <li>Declared war on Silverlight - refactoring existing components to native HTML5 with progressive fallbacks to flash when necessary.</li>
-            <li>Introduced an automatic asset pipeline as part of the front-end build process; reducing the average number of asset requests per page from 40 down to less than 5.</li>
+            <li>Streamlined front-end asset pipeline, reducing page asset requests from 40+ to fewer than 5, significantly improving load performance.</li>
             <li>Championed and developed a new design system with components, documentation, and accessibility to unify products. Worked with designers and other developers to ensure the needs of the users and the product were built directly into the system.</li>
           </ul>
         </li>
