@@ -33,6 +33,7 @@ h2 {
 section {
   clear: both;
   font-size: 14px;
+  break-before: avoid;
 }
 
 address {
