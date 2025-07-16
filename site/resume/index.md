@@ -24,10 +24,9 @@ title: "Résumé of Jason Wilson"
           <date>November 2023 - Present</date>
           <ul>
             <li>Spearheaded architecture and development of “recipe” layers to standardize component usage across 7+ product teams, unifying UX and reducing rework.</li>
-            <li>Engineered complex ARIA components (e.g., Combobox, Menu) for Deque’s Cauldron library, ensuring WCAG-compliant, reusable behavior patterns.</li>
+            <li>Engineered complex ARIA components (e.g., Combobox, Menu) for Deque’s component library, Cauldron, ensuring WCAG-compliant, reusable behavior patterns.</li>
             <li>Rebuilt MDX-based documentation for component library, decreasing contributor ramp-up time and improving design-dev collaboration.</li>
             <li>Collaborated across 7+ product teams to support front-end architecture decisions, aligning accessibility tooling and UI consistency in complex application environments.</li>
-            <li>Delivered key features to axe DevTools, improving user guidance for real-world accessibility testing workflows.</li>
           </ul>
         </li>
         <li class="experience">
