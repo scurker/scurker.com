@@ -2,6 +2,7 @@ body {
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
   background-color: rgba(0, 0, 0, .1);
   margin: 2em;
+  line-height: 1.4;
 }
 
 .fn {
