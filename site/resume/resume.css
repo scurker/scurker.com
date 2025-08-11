@@ -73,6 +73,7 @@ li.experience {
 
 .experience > ul li {
   list-style-type: circle;
+  line-height: 1.4;
 }
 
 h3, h4 {
