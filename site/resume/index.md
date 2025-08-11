@@ -13,7 +13,7 @@ title: "Résumé of Jason Wilson"
     </address>
     <section>
       <h2>Professional Summary</h2>
-      Staff Front-End Engineer with 15+ years of experience designing and leading accessibility-focused, high‑performance web applications. Expert in modern JavaScript, UI systems, and cross-functional team leadership. Passionate about scalable design systems.
+      Staff Front-End Engineer with 15+ years of experience delivering accessible, high-performance web applications. Proven track record in building enterprise design systems, leading cross-functional teams, and architecting reusable UI systems. Expert in modern JavaScript ecosystems with a passion for accessibility, performance, and developer experience.
     </section>
     <section>
       <h2>Experience</h2>
@@ -23,8 +23,8 @@ title: "Résumé of Jason Wilson"
           <h4>Deque Systems</h4>
           <date>November 2023 - Present</date>
           <ul>
-            <li>Spearheaded architecture and development of “recipe” layers to standardize component usage across 7+ product teams, unifying UX and reducing rework.</li>
-            <li>Engineered complex ARIA components (e.g., Combobox, Menu) for Deque’s component library, Cauldron, ensuring WCAG-compliant, reusable behavior patterns.</li>
+            <li>Spearheaded architecture and development of “recipe” layers, reusable component compositions and patterns to standardize UX across 7+ product teams.</li>
+            <li>Engineered complex ARIA components (e.g., Combobox, Menu) for Cauldron, Deque’s accessibility-focused component library, ensuring WCAG-compliant, reusable behavior patterns.</li>
             <li>Rebuilt MDX-based documentation for component library, decreasing contributor ramp-up time and improving design-dev collaboration.</li>
             <li>Collaborated across 7+ product teams to support front-end architecture decisions, aligning accessibility tooling and UI consistency in complex application environments.</li>
           </ul>
@@ -55,7 +55,7 @@ title: "Résumé of Jason Wilson"
           <ul>
             <li>Architected and launched Daxko Mobile, a cross-platform Cordova + React app serving 200+ YMCA/JCC clients, providing seamless mobile access to memberships and services.</li>
             <li>Developed a build process in node for Daxko Mobile to package assets per client across both Android and iOS, reducing build times from hours to minutes.</li>
-            <li>Facilitated weekly front-end guild sessions to introduce modern JavaScript tools and foster a culture of scalable front-end best practices across multiple teams.</li>
+            <li>Facilitated weekly front-end best practice workshops to introduce modern JavaScript tools and foster a culture of scalable front-end best practices across multiple teams.</li>
           </ul>
         </li>
         <li class="experience">
